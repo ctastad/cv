@@ -2,6 +2,8 @@
 *.bit 
 *.blg 
 *.bbl 
+*.fdb_latexmk
+*.fls
 *.lof 
 *.log 
 *.lot 
@@ -15,4 +17,6 @@
 *.out 
 *.url 
 *.svn 
+*.swp
 *.toc
+*.synctex.gz
