@@ -4,13 +4,15 @@
 
 \documentclass[10pt,letter,sans]{moderncv}
 
-\moderncvstyle{banking}
-\moderncvcolor{blue}
+\moderncvtheme[blue]{banking}
 
 % packages
 \usepackage[utf8]{inputenc}
 \usepackage[scale=0.8]{geometry}
+
 \usepackage{textcomp}
+\usepackage{anyfontsize}
+\usepackage{transparent}
 \usepackage[numbers]{natbib}
 
 % custom commands
@@ -19,12 +21,14 @@
 \newcommand{\company}{***}
 \newcommand{\role}{***}
 
+% ATS work around
+\newcommand{\atsWorkAround}{{\fontsize{0.1}{0}\selectfont \transparent{0}{}}}
+
 % contact info
 \name{Christopher}{Tastad}
 %\address{720 Washington Ave S \#507}{Minneapolis, MN 55415}{USA}
-\address{}{}{}
-\phone[fixed]{\myphone{}}
 \email{\myemail{}}
+\phone{\myphone{}}
 \social[github]{ctastad}
 \social[linkedin]{ctastad}
 
@@ -40,7 +44,7 @@
 \recipient{HR Department}{\company{} \\ STREET ADDRESS \\ CITY, STATE ZIP}
 \date{\today}
 \opening{To Whom It May Concern,}
-\closing{Sincerely Yours,}
+\closing{Sincerely,}
 \enclosure[Attached]{Resume}
 \makelettertitle{}
 
@@ -56,7 +60,12 @@ Additionally, in recent history, I have focused in the study of handling large d
 % General closer
 Taken together, I would appreciate further consideration and an opportunity to interview with \company{} for the \role{} role. Please feel free to contact me at \myphone{} or \myemail{}.
 
+\hfill \break{}
+
 \makeletterclosing{}
+
+\atsWorkAround{}
+
 \clearpage
 
 %-------------------------------------------------------------------------------
@@ -67,11 +76,15 @@ Taken together, I would appreciate further consideration and an opportunity to i
 
 \title{Resume}
 \makecvtitle{}
-\vspace{-1.0cm}
+
+\atsWorkAround{}
+
+\vspace{-1cm}
 
 \section{Education}
-\cventry{Sept 2015 --- Present}{University of Minnesota}{Bioinformatics, MS}{Minneapolis, MN}{Bioinformatics and Computational Biology}{}
-\cventry{Sept 2007 --- May 2011}{University of Minnesota}{Biochemistry, BS}{Minneapolis, MN}{College of Biological Sciences}{}
+
+\cventry{Dec 2019}{University of Minnesota}{Bioinformatics, MS}{Minneapolis, MN}{Bioinformatics and Computational Biology}{Capstone: Copy number variation in ovarian cancer from single cell and whole exome sequencing data.}
+\cventry{May 2011}{University of Minnesota}{Biochemistry, BS}{Minneapolis, MN}{College of Biological Sciences}{}
 
 %-------------------------------------------------------------------------------
 %   SKILLS
@@ -79,10 +92,10 @@ Taken together, I would appreciate further consideration and an opportunity to i
 
 \section{Skills}
 
-\cvitem{Languages}{\textsc{R}, \textsc{bash}, \textrm{\LaTeX}, \textsc{sql}, \textsc{html}, \textsc{css}, \textsc{xml}}
+\cvitem{Languages}{\textsc{R}, \textsc{bash}, \textrm{\LaTeX}, \textsc{markdown}, \textsc{sql}, \textsc{html}, \textsc{css}, \textsc{xml}}
 \cvitem{Platforms}{Linux, \textsc{git}, \textsc{nginx}, \textsc{apache}, Relational Databases, Oracle, Vim, wordpress,
 virtualization, proxmox, docker, HPC, vector graphics, visualization}
-\cvitem{Packages}{rmarkdown, shiny, ggplot2, dplyr, tidyr, BioC, SummarizedExperiment, DNAcopy, GRL PACKAGES}
+\cvitem{Packages}{rmarkdown, shiny, ggplot2, dplyr, BioC, SummarizedExperiment, DNAcopy, GRL PACKAGES}
 \cvitem{Genomics}{samtools, bwa-mem, CNV (VarScan2, Excavator), Single Cell (Seurat)}
 \cvitem{Statistics}{Hypothesis testing, Simple/Multiple/Poisson Regression, A/B Testing, Contingency Testing, ANOVA, Survival Analysis, K-means, PCA, K-nearest neighbor, SVM,
 Bayesian Networks, Functional Linkage Networks}
@@ -93,18 +106,18 @@ Bayesian Networks, Functional Linkage Networks}
 %-------------------------------------------------------------------------------
 
 \section{Experience}
+
 % starrlab research assistant
 \cventry{May 2019 --- Present}{Department of OBGYN}{Graduate Research Assistant}{Minneapolis, MN}{Starr Lab}{%
     \begin{itemize}
-        \item{Conducted full stack rewrite of cancer gene web app; implementing new framework, dramatically reducing code base, and eliminating need for SQL database.}
-        \item{}
+        \item{Executed full rewrite of cancer gene web app; deployed new framework, reduced codebase, removed need for SQL database.}
         \item{}
 \end{itemize}}
 
 % load planner
-\cventry{Oct 2018 --- Present}{United Parcel Service}{Load Planner}{Minneapolis, MN}{Industrial Engineering}{%
+\cventry{Oct 2018 --- Present}{United Parcel Service}{Load Planning Engineer}{Minneapolis, MN}{Industrial Engineering}{%
     \begin{itemize}
-        \item{Central point person in coordinating all hub-wide load related functions; mediating hub, feeder, and engineering priorities.}
+        \item{Central authority in coordinating all hub-wide load related functions; mediating hub, feeder, and engineering priorities.}
         \item{Advance district level interests through industrial engineering functions of operational, flow, and system analysis.}
         \item{Operate with a wide latitude in exploring opportunities for cost saving measures for management and stakeholders.}
 \end{itemize}}
@@ -181,8 +194,11 @@ Bayesian Networks, Functional Linkage Networks}
 %-------------------------------------------------------------------------------
 
 \section{Personal}
+
 \cvitem{Hobbies}{Racquetball, CAD design \& 3d printing, Camping, Fishing, Hunting, Reading, Self-hosting software}
+
 \subsection{Volunteering}
+
 % trinity
 \cventry{July 2017 --- Present}{Trinity Lutheran Church of Montevideo}{IT Consultant}{Montevideo, MN}{}{}
 % recwell
@@ -206,6 +222,7 @@ Bayesian Networks, Functional Linkage Networks}
 %	AWARDS
 
 \section{Awards}
+
 \cvlanguage{Advocate of the Year}{University of Minnesota Alumni Association}{Oct, 2012}
 \cvlanguage{Spirit of MSA (MVP)}{Minnesota Student Association}{May, 2012}
 \cvlanguage{Highest Rated TA}{CBS Biol2004 Lab Students}{May, 2012}
