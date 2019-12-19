@@ -43,32 +43,32 @@
 %-------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------
 
-%\title{Letter}
-%\recipient{HR Department}{\company{} \\ STREET ADDRESS \\ CITY, STATE ZIP}
-%\date{\today}
-%\opening{To Whom It May Concern,}
-%\closing{Sincerely,}
-%\enclosure[Attached]{Resume}
-%\makelettertitle{}
-%
-%% General opener
-%I am interested in applying for the \role{} position with \company{}. With my background, I provide a unique blend of content knowledge, technical analysis, and relevant experience that make me a strong fit for the role. I have brought this aptitude together through a few core principles which I have applied in a diverse range of settings. Critical thinking and objectivity guide my approach; independence and competency carry to completion; and an attraction towards establishing effective systems elevates outcomes.
-%
-%% Asakura lab
-%My first and most prominent experience was in stem cell development with a disease model of muscular dystrophy. As a research associate in The Stem Cell Institute, I worked in a central role through independent project coordination, grant and manuscript writing, lab member training, and overall lab management. While serving in this position, I employed strict research methodology and analysis to produce publication quality data. With that, I often presented and defended my efforts to both my primary investigator and the broader scientific community. The product of this work led to several co-authorships in high impact journals as well as being awarded individual grant monies with contributions to lab-wide grants.
-%
-%% Informatics for analysis
-%Additionally, in recent history, I have focused in the study of handling large data sets, particularly in Bioinformatics. As an integrative field, I've brought my medical content knowledge forward with the development of advanced skill sets in statistical and computational modeling. By developing expertise in this area, I have drastically expanded the nature, flexibility, and application of the analytics capabilities that underline my scientific training. Most importantly, my ability to work with large data sets has become subject agnostic and can translate to any intensive technical task, all of which would be well suited to \company{}'s business objectives.
-%
-%% General closer
-%Taken together, I would appreciate further consideration and an opportunity to interview with \company{} for the \role{} role. Please feel free to contact me at \myphone{} or \myemail{}.
-%
-%\hfill \break{}
-%
-%\makeletterclosing{}
-%\atsWorkAround{}
-%
-%\clearpage
+\title{Letter}
+\recipient{HR Department}{\company{} \\ ADDRESS \\ CITY, STATE ZIP}
+\date{\today}
+\opening{To Whom It May Concern,}
+\closing{Sincerely,}
+\enclosure[Attached]{Resume}
+\makelettertitle{}
+
+% General opener
+I am interested in applying for the \role{} position with \company{}. With my background, I provide a unique blend of content knowledge, technical analysis, and relevant experience that make me a strong fit for the role. I have brought this aptitude together through a few core principles which I have applied in a diverse range of settings. Critical thinking and objectivity guide my approach; independence and competency carry to completion; and an attraction towards establishing effective systems elevates outcomes.
+
+% Asakura lab
+My first and most prominent experience was in stem cell development with a disease model of muscular dystrophy. As a research associate in The Stem Cell Institute, I worked in a central role through independent project coordination, grant and manuscript writing, lab member training, and overall lab management. While serving in this position, I employed strict research methodology and analysis to produce publication quality data. With that, I often presented and defended my efforts to both my primary investigator and the broader scientific community. The product of this work led to several co-authorships in high impact journals as well as being awarded individual grant monies with contributions to lab-wide grants.
+
+% Informatics for analysis
+Additionally, in recent history, I have focused in the study of handling large data sets, particularly in Bioinformatics. As an integrative field, I've brought my medical content knowledge forward with the development of advanced skill sets in statistical and computational modeling. By developing expertise in this area, I have drastically expanded the nature, flexibility, and application of the analytics capabilities that underline my scientific training. Most importantly, my ability to work with large data sets has become subject agnostic and can translate to any intensive technical task, all of which would be well suited to \company{}'s business objectives.
+
+% General closer
+Taken together, I would appreciate further consideration and an opportunity to interview with \company{} for the \role{} role. Please feel free to contact me at \myphone{} or \myemail{}.
+
+\hfill \break{}
+
+\makeletterclosing{}
+\atsWorkAround{}
+
+\clearpage
 
 %-------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------
@@ -93,13 +93,16 @@
 
 \section{Skills}
 
-\cvitem{Languages}{\textsc{R}, \textsc{bash}, \textrm{\LaTeX}, \textsc{markdown}, \textsc{sql}, \textsc{html}, \textsc{css}, \textsc{xml}}
-\cvitem{Platforms}{Linux, \textsc{git}, \textsc{nginx}, \textsc{apache}, Relational Databases, Oracle, Vim, wordpress,
-virtualization, proxmox, docker, HPC, vector graphics, visualization}
-\cvitem{Packages}{rmarkdown, shiny, ggplot2, dplyr, BioC, SummarizedExperiment, DNAcopy, GRL PACKAGES}
-\cvitem{Genomics}{samtools, bwa-mem, CNV (VarScan2, Excavator), single cell (Seurat)}
-\cvitem{Statistics}{Hypothesis testing, Simple/Multiple/Poisson Regression, A/B Testing, Contingency Testing, ANOVA, Survival Analysis, K-means, PCA, K-nearest neighbor, SVM,
-Bayesian Networks, Functional Linkage Networks}
+\cvitem{Languages}{\textsc{R}, \textsc{bash}, \textrm{\LaTeX}, \textsc{sql}, \textsc{html}, \textsc{css}, \textsc{xml}}
+
+\cvitem{Platforms}{Linux, git, \textsc{nginx}, \textsc{apache}, HPC, virtualization, docker, Relational Databases, Oracle, wordpress}
+
+\cvitem{Packages}{rmarkdown, shiny, ggplot2, dplyr, jsonlite, DT}
+
+\cvitem{Genomics}{samtools, bwa-mem, bedtools, Seurat, VarScan2, Excavator, DNAcopy, parallel, SummarizedExperiment}
+
+\cvitem{Statistics}{Hypothesis testing, Simple/Multiple/Poisson Regression, A/B Testing, Contingency Testing, ANOVA, Survival Analysis, K-means, PCA, K-nearest neighbor, SVM, Bayesian Networks, Functional Linkage Networks}
+
 \cvitem{Benchwork}{DNA/RNA/protein isolation and analysis, western blotting, PCR, ELISA, luciferase, immunostaining, histology, epigenetic analysis, FACS, mammalian cell culture}
 
 %-------------------------------------------------------------------------------
@@ -111,8 +114,8 @@ Bayesian Networks, Functional Linkage Networks}
 % starrlab research assistant
 \cventry{May 2019 --- Present}{Department of OBGYN}{Graduate Research Assistant}{Minneapolis, MN}{Starr Lab}{%
     \begin{itemize}
-        \item{Executed full rewrite of cancer gene web app; deployed new framework, reduced codebase, removed need for SQL database.}
-        \item{Conducted Bioinformatic research into copy number variation within the Ovarian Cancer Precision Medicine Initiative.}
+        \item{Executed full rewrite of cancer gene web app: deployed new framework, reduced codebase, removed need for SQL database.}
+        \item{Applied bioinformatic focus into copy number variation on a largest of its kind single-cell sequencing human cancer dataset.}
         \item{Leveraged comprehensive statistical and computational approach to study whole exome and single cell sequencing cancer data.}
 \end{itemize}}
 
@@ -121,7 +124,7 @@ Bayesian Networks, Functional Linkage Networks}
     \begin{itemize}
         \item{Primary authority in guiding all load functions for 112 outbound doors; mediating hub, feeder, and engineering priorities.}
         \item{Advance district level interests through industrial engineering technologies for operational, flow, and system analysis.}
-        \item{Operate with a wide latitude in exploring opportunities for cost saving measures for management and stakeholders.}
+%        \item{Operate with a wide latitude in exploring opportunities for cost saving measures for management and stakeholders.}
         \item{Generate daily cost savings through identification and elimination of trailer runs which average to a value of \$500--1000.}
 \end{itemize}}
 
@@ -177,7 +180,7 @@ Bayesian Networks, Functional Linkage Networks}
 \end{itemize}}
 
 % 2004 teaching assistant
-\cventry{Sept 2009 --- May 2012}{University of Minnesota}{Teaching Assistant}{St.\ Paul, MN}{CBS Biol2004}{%
+\cventry{Sept 2009 --- May 2012}{University of Minnesota}{Teaching Assistant}{St.\ Paul, MN}{CBS BIOL2004}{%
     \begin{itemize}
         \item{Led teaching lab that included an integrative, research-focused curriculum, highlighting significant independent discovery.}
         \item{Consistently called on by course instructor for consultation in the improvement of course materials and curriculum.}
@@ -196,42 +199,42 @@ Bayesian Networks, Functional Linkage Networks}
 %  PERSONAL
 %-------------------------------------------------------------------------------
 
-%\section{Personal}
-%
-%\cvitem{Hobbies}{Racquetball, CAD design \& 3d printing, Camping, Fishing, Hunting, Reading, Self-hosting software}
-%
-%\subsection{Volunteering}
-%
-%% trinity
-%\cventry{July 2017 --- Present}{Trinity Lutheran Church of Montevideo}{IT Consultant}{Montevideo, MN}{}{}
-%% recwell
-%\cventry{July 2017 --- July 2017}{University of Minnesota}{Youth Camp Racquetball Coach}{Minneapolis, MN}{Recwell}{}
-%% shriners
-%\cventry{Dec 2008 --- May 2013}{Shriners Hospital for Children}{Child Life Specialist}{Minneapolis, MN}{}{}
-%% ducks unlimited
-%\cventry{Nov 2008 --- July 2011}{Ducks Unlimited}{IT Consultant \& Umn Chapter Co-founder}{Edina, MN}{}{}
-%% south africa
-%\cventry{June 2009 --- July 2009}{Student Travel and Exposure South Africa}{Trauma Ward Aide}{Cape Town, South Africa}{}{}
+\section{Personal}
+
+\cvitem{Hobbies}{Racquetball, Self-hosting software, CAD design \& 3d printing, Camping, Fishing, Hunting, Reading}
+
+\subsection{Volunteering}
+
+% trinity
+\cventry{July 2017 --- Present}{Trinity Lutheran Church of Montevideo}{IT Consultant}{Montevideo, MN}{}{}
+% recwell
+\cventry{July 2017 --- July 2017}{University of Minnesota}{Youth Camp Racquetball Coach}{Minneapolis, MN}{Recwell}{}
+% shriners
+\cventry{Dec 2008 --- May 2013}{Shriners Hospital for Children}{Child Life Specialist}{Minneapolis, MN}{}{}
+% ducks unlimited
+\cventry{Nov 2008 --- July 2011}{Ducks Unlimited}{IT Consultant \& Umn Chapter Co-founder}{Edina, MN}{}{}
+% south africa
+\cventry{June 2009 --- July 2009}{Student Travel and Exposure South Africa}{Trauma Ward Aide}{Cape Town, South Africa}{}{}
 
 %-------------------------------------------------------------------------------
-%	PUBLICATIONS
+%  PUBLICATIONS
 %-------------------------------------------------------------------------------
 
-%\bibliographystyle{unsrt}
-%\nocite{refsearch,pmid22848585,pmid21425413,pmid20956382,pmid20705734}
-%\bibliography{publications}
+\bibliographystyle{unsrt}
+\nocite{refsearch,pmid22848585,pmid21425413,pmid20956382,pmid20705734}
+\bibliography{publications}
 
 %-------------------------------------------------------------------------------
 %  AWARDS
 %-------------------------------------------------------------------------------
 
-%\section{Awards}
-%
-%\cvlanguage{Advocate of the Year}{University of Minnesota Alumni Association}{Oct, 2012}
-%\cvlanguage{Spirit of MSA (MVP)}{Minnesota Student Association}{May, 2012}
-%\cvlanguage{Highest Rated TA}{CBS Biol2004 Lab Students}{May, 2012}
-%\cvlanguage{Research Fellowship}{Gregory Marzolf Jr. Foundation}{Sept, 2009}
-%\cvlanguage{Distinct Honor --- Presenter's Award}{LHI/SCI Building Muscle and Blood Conference}{Oct, 2009}
-%\cvlanguage{Undergraduate Research Opportunity Grant}{University of Minnesota}{2008, 2009, 2011}
+\section{Awards}
+
+\cvlanguage{Advocate of the Year}{University of Minnesota Alumni Association}{Oct, 2012}
+\cvlanguage{Spirit of MSA (MVP)}{Minnesota Student Association}{May, 2012}
+\cvlanguage{Highest Rated TA}{CBS BIOL2004 Lab Students}{May, 2012}
+\cvlanguage{Research Fellowship}{Gregory Marzolf Jr. Foundation}{Sept, 2009}
+\cvlanguage{Distinct Honor --- Presenter's Award}{LHI/SCI Building Muscle and Blood Conference}{Oct, 2009}
+\cvlanguage{Undergraduate Research Opportunity Grant}{University of Minnesota}{2008, 2009, 2011}
 
 \end{document}
