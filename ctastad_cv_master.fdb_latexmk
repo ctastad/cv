@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1595456212 "ctastad_cv_master.tex" "ctastad_cv_master.pdf" "ctastad_cv_master" 1595456239
+["pdflatex"] 1595459769 "ctastad_cv_master.tex" "ctastad_cv_master.pdf" "ctastad_cv_master" 1595459784
   "/etc/texmf/web2c/texmf.cnf" 1586308938 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc" 1463430686 2679 32dd8ae231bf4a0752b98f62dc097183 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -131,11 +131,11 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1581979058 38841 ce3692aa899bb693b90b87eaa5d4d84e ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1586309029 4770781 1ed1abab22da9c3e2cc82e4db562318b ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1586309062 8256075 d10b6b69d97b97b6af0325b63631cc50 ""
-  "ctastad_cv_master.aux" 1595456213 1038 fa145a4735ec0dd32f7fcb73505446bf "pdflatex"
-  "ctastad_cv_master.out" 1595456213 254 cc4a81a64079a4cf40348ed5fd70f727 "pdflatex"
-  "ctastad_cv_master.tex" 1595456212 13800 490949e3956b3aba707432dc5b9240d1 ""
+  "ctastad_cv_master.aux" 1595459769 1038 fa145a4735ec0dd32f7fcb73505446bf "pdflatex"
+  "ctastad_cv_master.out" 1595459769 254 cc4a81a64079a4cf40348ed5fd70f727 "pdflatex"
+  "ctastad_cv_master.tex" 1595459763 13800 490949e3956b3aba707432dc5b9240d1 ""
   (generated)
-  "ctastad_cv_master.log"
+  "ctastad_cv_master.out"
   "ctastad_cv_master.aux"
   "ctastad_cv_master.pdf"
-  "ctastad_cv_master.out"
+  "ctastad_cv_master.log"
