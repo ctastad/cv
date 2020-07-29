@@ -1,0 +1,242 @@
+%-------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
+%  PREAMBLE
+%-------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
+
+\documentclass[10pt,letter,sans]{moderncv}
+
+\moderncvtheme[blue]{banking}
+
+% packages
+\usepackage[utf8]{inputenc}
+\usepackage[scale=0.85]{geometry}
+
+\usepackage{textcomp}
+\usepackage{anyfontsize}
+\usepackage{transparent}
+\usepackage[numbers]{natbib}
+
+% custom commands
+\newcommand{\myphone}{(612) 817--7989}
+\newcommand{\myemail}{ctastad@gmail.com}
+\newcommand{\company}{NovuHealth}
+\newcommand{\role}{ETL Engineer}
+
+% drone work around
+\newcommand{\droneWorkAround}{{\fontsize{0.1}{0}\selectfont \transparent{0}{.}}}
+
+% contact info
+\name{Christopher}{Tastad}
+%\address{720 Washington Ave S \#507}{Minneapolis, MN 55415}{USA}
+\email{\myemail{}}
+\phone{\myphone{}}
+\social[github]{ctastad}
+\social[linkedin]{ctastad}
+
+\begin{document}
+
+%-------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
+%  LETTER
+%-------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
+
+%\title{Letter}
+%\recipient{HR Department}{\company{} \\ 5401 Gamble Drive, Suite 300 \\ Minneapolis, MN 55416}
+%\date{\today}
+%\opening{To Whom It May Concern,}
+%\closing{Sincerely,}
+%\enclosure[Attached]{Resume}
+%\makelettertitle{}
+%
+%% General opener
+%I am interested in applying for the \role{} position with \company{}. With my background, I provide a unique blend of content knowledge, technical analysis, and relevant experience that make me a strong fit for the role. I have brought this aptitude together through a few core principles which I have applied in a diverse range of settings. Critical thinking and objectivity guide my approach; independence and competency carry to completion; and an attraction towards establishing effective systems elevates outcomes.
+%
+%% Asakura lab
+%My path toward data science began in basic science working in stem cell development with a disease model of muscular dystrophy. As a research associate in The Stem Cell Institute, I worked in a central role through independent project coordination, grant and manuscript writing, lab member training, and overall lab management. While serving in this position, I employed strict research methodology and analysis to produce publication quality data. With that, I often presented and defended my efforts to both my primary investigator and the broader scientific community. The product of this work led to several co-authorships in high impact journals as well as being awarded individual grant monies with contributions to lab-wide grants.
+%
+%% Informatics for analysis
+%In recent history, I have focused in the study of handling large genetic data sets, particularly in Cancer Biology. As an integrative field, I've brought my medical content knowledge forward with the development of advanced skill sets in statistical and computational modeling. By developing expertise in this area, I have drastically expanded the nature, flexibility, and application of the analytics capabilities that underline my scientific training. Most importantly, my ability to work with large data sets has become subject agnostic and can translate to any intensive technical task, all of which would be well suited to \company{}'s business objectives.
+%
+%% General closer
+%Taken together, I would appreciate further consideration and an opportunity to interview with \company{} for the \role{} role. Please feel free to contact me at \myphone{} or \myemail{}.
+%
+%\hfill \break{}
+%
+%\makeletterclosing{}
+%
+%\clearpage
+
+%-------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
+%  RESUME
+%-------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
+
+\title{Resume}
+\makecvtitle{}
+
+\droneWorkAround{}
+\vspace{-1cm}
+
+\section{Education}
+
+\cventry{Dec 2019}{University of Minnesota}{Bioinformatics, MS}{Minneapolis, MN}{Bioinformatics and Computational Biology}{Thesis: Copy number variation in ovarian cancer from single cell and whole exome sequencing data.}
+\cventry{May 2011}{University of Minnesota}{Biochemistry, BS}{Minneapolis, MN}{College of Biological Sciences}{}
+
+%-------------------------------------------------------------------------------
+%  SKILLS
+%-------------------------------------------------------------------------------
+
+\section{Skills}
+
+\cvitem{Languages}{R, BASH, Python, \LaTeX, SQL, HTML, CSS, XML, JSON}
+
+\cvitem{Platforms}{Linux (Ubuntu, RHEL, CentOS), git, Nginx, Apache, HPC, AWS, PostgreSQL, Docker, Oracle, WordPress}
+
+%\cvitem{Packages}{rmarkdown, shiny, ggplot2, dplyr, jsonlite, DT}
+
+%\cvitem{Algorithms}{Hidden Markov model, FastCall}
+
+\cvitem{Statistics}{Hypothesis testing, Simple/Multiple/Poisson Regression, Hidden Markov Model, A/B Testing, Contingency Testing, ANOVA, Survival Analysis, K-means, PCA, K-nearest neighbor}
+
+%\cvitem{Genomics}{10x single cell, samtools, bwa-mem, bedtools, Seurat, VarScan2, Excavator, DNAcopy, parallel}
+
+%\cvitem{Benchwork}{DNA/RNA/protein isolation and analysis, western blotting, PCR, ELISA, luciferase, immunostaining, histology, epigenetic analysis, FACS, mammalian cell culture}
+
+%-------------------------------------------------------------------------------
+%  EXPERIENCE
+%-------------------------------------------------------------------------------
+
+\section{Experience}
+
+% starrlab research assistant
+\cventry{May 2019 --- Present}{University of Minnesota Dept.\ of OBGYN}{Computational Biologist}{Minneapolis, MN}{Starr Lab}{%
+    \begin{itemize}
+        \item{Executed full rewrite of cancer gene web app: deployed new ETL framework, reduced codebase, removed need for SQL database.}
+        \item{Applied bioinformatic focus into copy number variation on a largest of its kind single-cell sequencing human cancer dataset.}
+        \item{Developed pipeline to automate analysis process from raw data to figures, incorporating HMM and FastCall algorithms.}
+\end{itemize}}
+
+% load planner
+\cventry{Oct 2018 --- Present}{UPS}{Load Planning Engineer}{Minneapolis, MN}{Industrial Engineering}{%
+    \begin{itemize}
+        \item{Primary authority in guiding all load functions for 112 outbound doors; mediating hub, feeder, and engineering priorities.}
+        \item{Advance district level interests through industrial engineering technologies for operational, flow, and system analysis.}
+%        \item{Operate with a wide latitude in exploring opportunities for cost saving measures for management and stakeholders.}
+        \item{Generate daily cost savings through identification and elimination of trailer runs which average to a value of \$500--1000.}
+\end{itemize}}
+
+%% ups supervisor
+%\cventry{Oct 2017 --- Oct 2018}{UPS}{Supervisor}{Minneapolis, MN}{Small Sort}{%
+%    \begin{itemize}
+%        \item{Managed a team of 35 employees in largest operational unit in the Northern Plains District HQ sort hub.}
+%        \item{Delivered an immediate 15\% production increase to area within first month (representing 40\% of daily volume).}
+%        \item{Developed novel improvement projects leading to elimination of package missorts and training with disability access.}
+%\end{itemize}}
+
+%% ups hourly
+%\cventry{June 2017 --- Oct 2017}{UPS}{Package Sorter}{Minneapolis, MN}{}{}
+
+% nmdp research assistant
+\cventry{Jan 2016 --- July 2017}{National Marrow Donor Program}{Graduate Research Assistant}{Minneapolis, MN}{Bioinformatics}{%
+    \begin{itemize}
+        \item{Employed scientific method as an investigator in a corporate R\&D department with a focus in hematological cancers.}
+        \item{Took both basic and clinical approach to investigation in cell therapy, immunology, and organ transplant genetics.}
+        \item{Aided development of initiative around IP generation using existing company technology and 13 million patient database.}
+\end{itemize}}
+
+% biorepository tech
+\cventry{Sept 2014 --- Jan 2016}{National Marrow Donor Program}{Biorepository Technician}{New Brighton, MN}{Research Repository}{%
+    \begin{itemize}
+        \item{Conducted specimen processing in high-throughput clinical laboratory facility, processing 1000s of samples per day.}
+        \item{Managed 300k patient database and long-term storage for FDA and Clinical Trials Network samples using GLP.}
+        \item{Contributed to larger registry activities maintaining Be The Match patient-donor sample receiving, storage, and typing.}
+\end{itemize}}
+
+%% mpls club server
+%\cventry{Oct 2013 --- Sept 2014}{Minneapolis Club}{Banquet and Dining Server}{Minneapolis, MN}{}{%
+%    \begin{itemize}
+%        \item{Performed setup, service, and take down for dining room and banquets ranging from chef$'$s table dinners to events of 500+.}
+%        \item{Trained in the manner of French service and hospitality to maintain an elite level of accommodation and experience.}
+%        \item{Participated in maintenance and building upkeep when called upon by external departments.}
+%\end{itemize}}
+
+% face to face
+\cventry{July 2012 --- Jan 2014}{Face to Face Organics LLC.}{Co-founder}{St.\ Anthony, MN}{}{%
+    \begin{itemize}
+        \item{Co-founded a personal care products start up that connected social activism with our product and its use.}
+        \item{Deployed company$'$s operating software stack on limited budget with minimal upfront cost or sustained overhead.}
+        \item{Established company systems around e-commerce, CRM, distribution, logistics, accounting, sales tracking, and inventory.}
+\end{itemize}}
+
+% asakura lab
+\cventry{Dec 2007 --- Jan 2013}{The Stem Cell Institute}{Research Associate}{Minneapolis, MN}{Asakura Lab}{%
+    \begin{itemize}
+        \item{Performed basic science research with a focus in skeletal muscle development, receiving 4 co-authorships.}
+        \item{Well versed in full spectrum of molecular biology, histology and cell biology wet lab techniques and diagnostics.}
+        \item{Authored significant writing efforts for group manuscripts and major grant awards, including a successful R01 bid.}
+\end{itemize}}
+
+% 2004 teaching assistant
+\cventry{Sept 2009 --- May 2012}{University of Minnesota}{Teaching Assistant}{St.\ Paul, MN}{CBS BIOL2004}{%
+    \begin{itemize}
+        \item{Led teaching lab that included an integrative, research-focused curriculum, highlighting significant independent discovery.}
+        \item{Consistently called on by course instructor for consultation in the improvement of course materials and curriculum.}
+        \item{Received highest rating among all course TAs as indicated by students in post-semester evaluations for 2012 year.}
+\end{itemize}}
+
+%% mslc
+%\cventry{Oct 2009 --- July 2012}{Minnesota Student Legislative Coalition}{Founder, Lobbyist, and Chairman}{Minneapolis, MN}{}{%
+%    \begin{itemize}
+%        \item{United leaders from all 5 U of M campuses to form the active student lobby, earning the University$'$s endorsement.}
+%        \item{Directed wide range of issues: education funding, loan rates, textbook pricing, campus safety, and veteran accreditation.}
+%        \item{Trained and supervised a team that guided the authorship of 4 student-specific bills during 2012 state legislative session.}
+%\end{itemize}}
+
+%-------------------------------------------------------------------------------
+%  PERSONAL
+%-------------------------------------------------------------------------------
+
+%\section{Personal}
+%
+%\cvitem{Hobbies}{Racquetball, Self-hosting software, CAD design \& 3d printing, Camping, Fishing, Hunting, Reading}
+%
+%\subsection{Volunteering}
+%
+%% trinity
+%\cventry{July 2017 --- Present}{Trinity Lutheran Church of Montevideo}{IT Consultant}{Montevideo, MN}{}{}
+%% recwell
+%\cventry{July 2017 --- July 2017}{University of Minnesota}{Youth Camp Racquetball Coach}{Minneapolis, MN}{Recwell}{}
+%% shriners
+%\cventry{Dec 2008 --- May 2013}{Shriner's Hospital for Children}{Child Life Specialist}{Minneapolis, MN}{}{}
+%% ducks unlimited
+%\cventry{Nov 2008 --- July 2011}{Ducks Unlimited}{IT Consultant \& Umn Chapter Co-founder}{Edina, MN}{}{}
+%% umems
+%\cventry{Oct 2008 --- May 2010}{University Emergency Medical Services}{EMT}{Minneapolis, MN}{}{}
+%% south africa
+%\cventry{June 2009 --- July 2009}{Student Travel and Exposure South Africa}{Trauma Ward Aide}{Cape Town, South Africa}{}{}
+
+%-------------------------------------------------------------------------------
+%  PUBLICATIONS
+%-------------------------------------------------------------------------------
+
+%\bibliographystyle{unsrt}
+%\nocite{refsearch,pmid22848585,pmid21425413,pmid20956382,pmid20705734}
+%\bibliography{publications}
+
+%-------------------------------------------------------------------------------
+%  AWARDS
+%-------------------------------------------------------------------------------
+
+%\section{Awards}
+%
+%\cvlanguage{Advocate of the Year}{University of Minnesota Alumni Association}{Oct, 2012}
+%\cvlanguage{Spirit of MSA (MVP)}{Minnesota Student Association}{May, 2012}
+%\cvlanguage{Highest Rated TA}{CBS BIOL2004 Lab Students}{May, 2012}
+%\cvlanguage{Research Fellowship}{Gregory Marzolf Jr. Foundation}{Sept, 2009}
+%\cvlanguage{Distinct Honor --- Presenter's Award}{LHI/SCI Building Muscle and Blood Conference}{Oct, 2009}
+%\cvlanguage{Undergraduate Research Opportunity Grant}{University of Minnesota}{2008, 2009, 2011}
+
+\end{document}
