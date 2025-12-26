@@ -1,0 +1,133 @@
+- process development
+
+- accomplishments / strategy / role
+team was selected by 10x as beta tester for cloud-specific hosting feature development based on direct feedback
+data distribution workflow for serveral things*
+implemented methodlogical strategies for automated celltyping
+made grant contributions in the form of results, experimental design, and strategic vision across all projects
+designed comprehensive, reimagined vision for a wholistic brand image for ibdgc
+single-handedly replaced costs of a data hosting platform sub-contract and support team of an R01 equivalent with free and open source equivalents
+cost savings: aws budget/compute, compute hardware capital investments
+presentations at scverse*
+push for gene network based signal characterization
+transition to python programming and hosting frameworks
+established working paradigm around application and service containerization and dev env management for team of non-technical biologists
+chief data custodian (title) for all ibdgc data
+set-up self hosted ollama interface for team before hpc group
+maintainer for redcap webhook tool which acts as central automated subject identification assignment and source of truth for 20 yr longitudinal study (redcap-booster)
+
+- compute resource management
+principal admin for cho lab, ibdgc, aws and hpc accounts
+sourced, built, and managed serveral on-prep compute nodes including a 35k machine
+generations of on-prem machines: bluebell, boxer, minimus, spark, clover, snowball
+technical consult for deployment of xenium spatial transcriptomic on board analyzer device around sourcing and configuration of 3000W UPS, led institution-first security review, and system networking implementation, and automated data distribution deployment
+
+- data frameworks / platforms / hosting
+ollama
+idhub
+stood up rest api for idhub
+idhub docs
+bystro
+deployed and maintained bystro, an ultra fast, web-hosted wes/wgs sequencing annotation tool
+osf
+transitioned all project archival publicaiton and data distribution hosting to the Open Science Framework (OSF) as a low cost, open source, FAIR-compliant alternative. this specifically served notable unmet user needs around accessbility and management
+dataverse
+cellxgene
+stood up local multi-user instances of CellxGene to host high-resource processed single cell objects for faster iteration and exploration of internal use and ease of access for the scientific community
+digital slide archive
+stood up Digital Slide Archive instance for easier web-based interal management of vast whole slide pathology image sample set across all lab spatial projects
+atlassian
+implemented use of atlassian services confluence and jira across team and consortium and served as admin. 
+jupyterlab hub server
+stood up jupyterlab hub server in on-prem, managed device to make more substantial resources available to biologists that don't have access to hpc
+sourcegraph
+implemented early use of sourcegraph for secure team llm access
+globus
+implemented use of globus for simplified, free high-throughput data distribution to internal partners along with controled access in cross-institutional partnerships. 
+google workspace
+transitioned consortium use of google workspace for documents and communication collaboration. coordinated and administered numerous list-servs that served as central lines of communication for internal, consortium, and field-wide collaborations. served as super-admin for all google services, policy, and user-management across google workspace.
+implemented webservices and sites for ibdgc and international collaborations
+established low-cost, accessible, data distribution workflow for pathology core
+acted as delegate manager for all group hpc resources
+
+- people management
+implemented a comprehensive goals setting system across team
+led all technical personnel recruitment
+hiring technical exam design and delivery
+coached several interns to generate grant level results and pilot methodologies for future use
+provided technical lead-level guidance and strategy direction across all projects
+proposed and implemented alternate project structure and execution strategy led by data team member which unlocked previously untapped project capactiy and insights.
+coordinated implemetation of topic-focused cross-institutional methods working groups
+oversaw substantial reorganization and reapplication of 20 years of consortium study data across multiple eras of data collection, projects, and institutional partnerships
+implementation or rigorous organization in confluence. not sure how to say this, but enforced a rigorous, clean information organization in confluence which held
+established a personnel transition process for members leaving the team
+instituted a per-project code repository management system for project-long organization of methods to elevate and simplify packaging of methods at the point of publication
+implemented a quarterly team workload assessment process for lab-wide collection of project requirements, roadmap planning, and effort rebalancing
+established process to review meeting load and prune wasted meeting time and organize meetings with purpose
+established new lab meeting format, data round table, to encourage alternate perspectives on generation of analytical threads for otherwise languishing data sources
+chief author of technical documentation for shared compute and software resources.
+led dry lab as tech lead and people leader
+led dcc data team as cheif data custodian (title?)
+
+- best practices
+training around github, data & methods standards, etc
+ibdgc protocol sharing
+established data life cycle policies to maximize storage utilization and reduce technical debt
+developed workflow to easily build and maintain containerized workflows for non-technical users
+transitioned non-technical team to comprehensive use of version control for all development, analysis methods tracking, and data package development
+code / process automation in github
+backup solutions
+enforcement of statistical methods
+phi isolation policy
+
+- data resource management
+labkey utils
+management of 0.5 PB
+submission of project data to niddk-cr / nih resources (geo) for archive
+orchestration of db-based sample metadata solution for single cell data
+programmatic implementation of sample metadata automation and management
+archival management of all publications
+data registries / dvc
+
+
+- data types / analysis
+model development in celltypist and tangram
+hpc execution and knowledge
+nextflow pipelines - execution
+airr seq
+velocity analysis
+celltypist
+cellbender
+cellranger
+novae
+scdownstream
+xeniumranger
+tobias
+seurat
+scanpy
+fastqc
+fixed-rna
+splicing
+spatialdata
+cite-seq
+crispri
+nanopore
+atac-seq
+cyto-single cell
+use of scvi tools
+bge
+wgs
+wes
+single cell
+spatial, visium, xenium
+bulk rna
+sopa
+lazy slide
+fork extension / contributions to sopa, scdownstream, novae
+
+- self-built tools
+seqann
+coresc
+parallax
+mssm institutional profile for nfcore
+ref search semenatic scholar tool (lit-report)
