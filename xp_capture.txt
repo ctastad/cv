@@ -2,13 +2,13 @@
 
 - accomplishments / strategy / role
 team was selected by 10x as beta tester for cloud-specific hosting feature development based on direct feedback
-data distribution workflow for serveral things*
+data distribution workflow for serveral things
 implemented methodlogical strategies for automated celltyping
 made grant contributions in the form of results, experimental design, and strategic vision across all projects
 designed comprehensive, reimagined vision for a wholistic brand image for ibdgc
 single-handedly replaced costs of a data hosting platform sub-contract and support team of an R01 equivalent with free and open source equivalents
 cost savings: aws budget/compute, compute hardware capital investments
-presentations at scverse*
+presentations at scverse
 push for gene network based signal characterization
 transition to python programming and hosting frameworks
 established working paradigm around application and service containerization and dev env management for team of non-technical biologists
@@ -25,8 +25,7 @@ technical consult for deployment of xenium spatial transcriptomic on board analy
 - data frameworks / platforms / hosting
 ollama
 idhub
-stood up rest api for idhub
-idhub docs
+built application stack to harmonize legacy sample and subject IDs across 20 years of consortium recruitment. this stack consisted of not just tools to host and use the unified data product, but also a governance strategy to systematically currate highly disperate legacy data sources with multi-staged discrepancy resolution mechanisms and audit loggging. The stack consisted of analyst friendly cli tools for curration, a user friendly nocodb front end for data navigation, a postgres id relational database, a global subject ID resolution service, a rest api for global subject ID queries and resolution, extensive documentation across external user needs, curation workflows, and developer maintenance.
 bystro
 deployed and maintained bystro, an ultra fast, web-hosted wes/wgs sequencing annotation tool
 osf
@@ -75,25 +74,27 @@ ibdgc protocol sharing
 established data life cycle policies to maximize storage utilization and reduce technical debt
 developed workflow to easily build and maintain containerized workflows for non-technical users
 transitioned non-technical team to comprehensive use of version control for all development, analysis methods tracking, and data package development
-code / process automation in github
-backup solutions
+established standards of practice for code and data process deployments using github actions
+established 3 2 1 backup paradigm across all compute envs
 enforcement of statistical methods
-phi isolation policy
+enforced data processing and statistical methods standards across all workflows, experimental conditions, and data types
+implemented data governance policy to isolate PHI data within each respective compute and storage env to avoid contamination or data leaks 
 
 - data resource management
 labkey utils
-management of 0.5 PB
-submission of project data to niddk-cr / nih resources (geo) for archive
+managed over 0.5 PB data
+submission of project data to niddk-cr / nih resources (geo) for fair-compliant archive
 orchestration of db-based sample metadata solution for single cell data
 programmatic implementation of sample metadata automation and management
 archival management of all publications
 data registries / dvc
+established project and data type-specific data registries for shared collaborative efforts using data version control
 
 
 - data types / analysis
 model development in celltypist and tangram
-hpc execution and knowledge
-nextflow pipelines - execution
+extensive hpc execution and knowledge
+extensive experience in nextflow / snakemake pipelines development and execution
 airr seq
 velocity analysis
 celltypist
@@ -123,11 +124,11 @@ spatial, visium, xenium
 bulk rna
 sopa
 lazy slide
-fork extension / contributions to sopa, scdownstream, novae
+substantial fork extension / contributions to tool sets for sopa, scdownstream, novae
 
 - self-built tools
-seqann
-coresc
-parallax
-mssm institutional profile for nfcore
-ref search semenatic scholar tool (lit-report)
+seqann an automated wgs sequencing annotation pipeline using vep
+coresc, a standardized single cell preprocessing workflow that unified the data processing methods of our group
+wrote parallax, a pipeline for spatial transcriptomic noise correction, context aware spatially differential expression, and downstream spatial analysis.
+developed the official mssm institutional execution profile for nfcore
+created ref search semenatic scholar tool (lit-report)
