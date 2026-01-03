@@ -95,17 +95,21 @@
 
 \section{Skills}
 
-\cvitem{Languages}{R, BASH, Python, \LaTeX, SQL, HTML, CSS, XML, JSON}
+\cvitem{Programming Languages}{Python, R, BASH/Shell, SQL, \LaTeX, HTML, CSS, JavaScript, XML, JSON, YAML}
 
-\cvitem{Platforms}{Linux (Ubuntu, RHEL, CentOS), git, Nginx, Apache, HPC, AWS, PostgreSQL, Docker, Oracle, WordPress}
+\cvitem{Cloud \& Infrastructure}{AWS (EC2, S3, Glacier, RDS, ELB, VPC, WAF, EFS, ECR, IAM, CloudFront, SES, Route53), Docker, Kubernetes, Nginx, Apache, HPC (SLURM, PBS, LSF), Linux (Ubuntu, RHEL, CentOS)}
 
-\cvitem{Packages}{rmarkdown, shiny, ggplot2, dplyr, jsonlite, DT}
+\cvitem{Data Management \& Platforms}{PostgreSQL, MySQL, Oracle, Data Version Control (DVC), Git/GitHub, Globus, REDCap, LabKey, OSF, Dataverse}
 
-%\cvitem{Algorithms}{Hidden Markov model, FastCall}
+\cvitem{Genomics \& Bioinformatics}{Nextflow, Snakemake, 10x Genomics (Cellranger, Space Ranger), Seurat, Scanpy, CellTypist, samtools, bwa-mem, bedtools, VarScan2, GATK, Bystro, nf-core}
 
-\cvitem{Statistics}{Hypothesis testing, Simple/Multiple/Poisson Regression, Hidden Markov Model, A/B Testing, Contingency Testing, ANOVA, Survival Analysis, K-means, PCA, K-nearest neighbor}
+\cvitem{Analysis \& Visualization}{R (ggplot2, dplyr, Seurat, rmarkdown, shiny), Python (pandas, numpy, scipy, matplotlib, seaborn, scanpy), Statistical modeling, Machine learning, PCA, UMAP, t-SNE}
 
-\cvitem{Genomics}{10x single cell, samtools, bwa-mem, bedtools, Seurat, VarScan2, Excavator, DNAcopy, parallel}
+\cvitem{Platform \& Service Management}{CellxGene, Digital Slide Archive, JupyterHub, Atlassian (Confluence/Jira), Google Workspace, Sourcegraph, Ollama, WordPress}
+
+\cvitem{Data Types \& Methods}{Single-cell RNA-seq, Spatial transcriptomics (Visium/Xenium), ATAC-seq, CITE-seq, CRISPRi, Nanopore, WGS/WES, GWAS, AIRR-seq, Bulk RNA-seq, Multi-omic integration}
+
+\cvitem{Leadership \& Management}{Team leadership, Project management, Agile methodologies, Technical recruitment, Personnel development, Cross-institutional collaboration, Grant writing}
 
 %\cvitem{Benchwork}{DNA/RNA/protein isolation and analysis, western blotting, PCR, ELISA, luciferase, immunostaining, histology, epigenetic analysis, FACS, mammalian cell culture}
 
@@ -115,26 +119,65 @@
 
 \section{Experience}
 
-% cholab bioinformatician
-\cventry{Feb 2021 --- Present}{Icahn School of Medicine at Mount Sinai}{Bioinformatician}{New York, NY}{Cho Lab}{%
+% Mount Sinai - Updated comprehensive version
+\cventry{Oct 2023 --- Present \\ Feb 2021 --- Oct 2023}{Icahn School of Medicine at Mount Sinai}{Senior Manager, Bioinformatics \\ Bioinformatician II}{New York, NY}{Cho Lab}{%
+    \textbf{Technical Innovation \& Direction}
     \begin{itemize}
-        \item{Serve as strategy lead for tool development, methodological approach, and workload allocation.}
-        \item{Team lead for recruitment, hiring, on boarding, and personnel management of new informatics hires.}
-        \item{Primary liaison for project management between teams. Introduced "light" Agile methods to address streamlining opportunities.}
-        \item{Transitioned full scope of on-prem data content/distribution, code base management, and web services to AWS and Google Workspaces, increasing up-time, durability, and user access.}
-        \item{Post cloud transition: owner of all facets of future dev and ops - strategy, design, architecting, deployment, admin.}
-        \item{Implemented practice in development for creating automated, reproducible, portable tools for standardized analysis and workflows.}
-        \item{Established standards of best practice for routine, consistent documentation of informatics methods and analysis.}
-        \item{Introduced quarterly informatics team workload assessment process for defining and updating project scope.}
-        \item{Introduced daily informatics stand-up meetings and weekly office hour to foster collaboration across on-site and remote staff.}
-        \item{Led design for data wrangling approach for several cutting-edge multimodal single cell techs (ATAC, VDJ, fixed RNA, CRISPR).}
-        \item{Designed and deployed fully portable containerized dev environments to suit both wet and dry lab user needs.}
-        \item{Coordinated purchase of dedicated HPC hardware to serve as central collaboration environment for cross-institutional partners.}
-        \item{Designed and built low grade, on-prem compute server for interactive use to expand compute access to non-HPC users.}
+        \item{Tech lead on all methodological innovation, establishing leading analytical frameworks across dozen+ major project initiatives including evolving single-cell processing, automated cell typing, multi-omic data, spatial transcriptomics, and emerging genomic platforms. Created new computational biology standards through extensive testing, validation, pipeline deployment, and custom tool development.}
+        \item{Architected comprehensive scientific analysis application stack including containerized workflows, automated data distribution, and multi-user self-hosted services (CellxGene, Digital Slide Archive, Jupyter Hub, Ollama, DNS routing), fundamentally lowering barriers to access and accelerating discovery outcomes for non-technical biologists.}
+        \item{Established standardized single-cell preprocessing paradigm (CoreSC) creating unified statistical methodology across 15+ projects where none previously existed, fundamentally improving reproducibility and eliminating analysis methods inconsistency.}
+        \item{Pioneered spatial transcriptomics methodology extending Sopa for highly scalable execution and developing Parallax pipeline for noise correction, context-aware spatially differential expression, and downstream spatial analysis. Established standard for foundational analytical frameworks enabling first-of-its-kind publications in IBD research.}
+        \item{Selected as 10x Genomics beta partner for cloud hosting feature development in Xenium Explorer analysis application, directly influencing product roadmap through technical feedback and validation of cloud-specific hosting capabilities in emerging spatial genomics platforms.}
+        \item{Pioneered internal containerization paradigm using Docker/Kubernetes for application deployment, enabling non-technical users to deploy reproducible analysis environments in high performance compute resources.}
+        \item{Contributed to \$2M+ grant renewals through technical leadership, experimental design, and strategic vision, providing data management expertise across all consortium projects and influencing methodological approaches at international scale.}
+    \end{itemize}
+    \textbf{Infrastructure Expansion \& Resource Management}
+    \begin{itemize}
+        \item{Architected cloud-centric data infrastructure across 0.5PB+ genomic datasets in comprehensive AWS ecosystem (EC2, S3, Glacier Deep Archive, Route53, ELB, VPC, WAF, EFS, ECR, IAM, CloudFront, SES), reducing operational costs while improving accessibility for 200+ researchers across network of institutions.}
+        \item{Sourced, built, and deployed purpose-built \$60k+ on-prem supplementary compute infrastructure including custom nodes, expanding team computational capacity 3x at fraction of commercial alternatives.}
+        \item{Led institution-first Xenium spatial analyzer device deployment including custom high-power supply configuration, full security review, automated data product distribution, and system networking implementation, establishing institutional deployment standards for emerging spatial platforms.}
+        \item{Implemented comprehensive data lifecycle management including storage class transition policies, 3-2-1 backup paradigm, data version control (DVC), and project-specific data registries. Achieved zero data loss incidents over 4+ years while dramatically reducing technical debt across 0.5PB+ managed data.}
+        \item{Established strategic resource accessibility initiative deploying Digital Slide Archive, cloud storage integration, and containerization frameworks specifically to overcome substantial resource barriers introduced by growth of imaging and spatial transcriptomics workflows.}
+    \end{itemize}
+    \textbf{Team Leadership \& Organizational Transformation}
+    \begin{itemize}
+        \item{Led 5-person bioinformatics team driving technical strategy for cutting-edge genomic analysis across 10+ concurrent multi-year projects, establishing collaborative frameworks where none previously existed.}
+        \item{Designed comprehensive personnel management systems spanning quarterly workload assessments (collection of project requirements, roadmap planning, and effort rebalancing), recruitment and screening of technical personnel, and knowledge transfer protocols for personnel transitions, fundamentally improving project delivery and organizational continuity.}
+        \item{Established rigorous project management standards implementing per-project repository management, version control adoption, and documentation frameworks, transforming publication packaging quality and efficiency from ad-hoc to systematic solutions.}
+        \item{Introduced ``light'' Agile methods including daily stand-ups, weekly office hours, and data round table meetings, fostering systematic collaboration across on-site and remote staff in previously siloed environment.}
+        \item{Established organizational knowledge management implementing Atlassian services (Confluence/Jira) across team and consortium with rigorous information organization standards, transforming institutional memory and project tracking capabilities.}
+\end{itemize}}
+
+% NIDDK IBD Genetics Consortium - Updated comprehensive version
+\cventry{Jul 2023 --- Present \\ Feb 2021 --- Jul 2023}{NIDDK IBD Genetics Consortium}{Chief Data Custodian \\ Data Engineering Lead}{New York, NY}{}{%
+    \textbf{Data Architecture \& Governance Leadership}
+    \begin{itemize}
+        \item{Architected comprehensive ID harmonization platform (IDhub) unifying legacy sample/subject IDs across 20 years of consortium recruitment, developing a PostgreSQL database, REST API, global subject ID resolution service, and multi-staged curation workflows with audit logging, establishing foundational data integrity framework.}
+        \item{Replaced \$250K+ annual vendor contracts with low cost or free open-source solutions (OSF, Dataverse, Bystro), meeting and exceeding requirements, demonstrating strategic resource optimization at consortium scale.}
+        \item{Implemented FAIR-compliant data distribution architecture using Open Science Framework, fundamentally improving accessibility and meeting NIH data sharing requirements for 0.5PB+ genomic datasets across international research community.}
+        \item{Deployed ultra-fast, web-based genomic annotation platform (Bystro) in AWS for WES/WGS analysis, reducing annotation time from days to hours for consortium-wide sequencing projects, making detailed genomic insights widely fast and accessible.}
+        \item{Established cloud-hosted automated subject identification system (REDCap-Booster) serving as central source of truth for 20-year longitudinal study recruitment and data collection, creating systematic data governance where none existed.}
+    \end{itemize}
+    \textbf{Consortium Coordination \& Strategic Vision}
+    \begin{itemize}
+        \item{Coordinated data governance across 650+ global collaborators spanning dozens of international consortia and 15+ partner institutions, ensuring HIPAA compliance and streamlined data sharing protocols for multi-site genomic studies at unprecedented scale.}
+        \item{Led comprehensive Google Workspace transition for inter-institutional collaboration, serving as super-admin for 200+ user accounts while establishing policy management and communication frameworks enabling systematic international coordination.}
+        \item{Designed comprehensive brand and collaboration strategy for IBDGC including web services architecture, international partnership platforms, and consortium visibility initiatives, fundamentally improving global research coordination capabilities.}
+        \item{Established cross-institutional methods working groups facilitating knowledge transfer and standardization across partner sites, creating systematic collaboration frameworks for international research coordination.}
+        \item{Led comprehensive reorganization of 20 years of consortium study data across multiple eras of data collection, projects, and institutional partnerships, establishing systematic data stewardship at international scale.}
+        \item{Implemented systematic deployment standards using GitHub Actions for code and data process deployments, establishing reliability frameworks and reducing technical debt across international collaborative infrastructure.}
+    \end{itemize}
+    \textbf{Technical Infrastructure \& AWS Architecture Management}
+    \begin{itemize}
+        \item{Managed enterprise-scale AWS infrastructure including EC2 compute clusters, S3/Glacier storage systems, RDS databases, ELB load balancing, VPC networking, WAF security, and EFS file systems supporting multiple public domains (ibdgc.org, ibdgenetics.org) and serving international research community.}
+        \item{Implemented comprehensive data governance architecture isolating PHI data within respective compute and storage environments while enabling systematic collaboration, preventing contamination and ensuring compliance across international partnerships.}
+        \item{Established project-specific data registries using Data Version Control (DVC) for shared collaborative efforts, creating systematic reproducible research frameworks and enabling international data sharing at scale.}
+        \item{Developed automated metadata management systems using LabKey utils and programmatic implementation, reducing manual curation overhead while establishing systematic data stewardship practices.}
+        \item{Created comprehensive technical documentation ecosystem for shared compute and software resources, serving as chief architect and maintainer of institutional knowledge systems.}
 \end{itemize}}
 
 % starrlab research assistant
-\cventry{May 2019 --- Feb 2021}{University of Minnesota Dept.\ of OBGYN}{Computational Biologist}{Minneapolis, MN}{Starr Lab}{%
+\cventry{May 2019 --- Feb 2021}{University of Minnesota Dept.\ of OBGYN}{Graduate Research Assistant}{Minneapolis, MN}{Starr Lab}{%
     \begin{itemize}
         \item{Executed full rewrite of cancer gene web app: deployed new ETL framework, reduced codebase, removed need for SQL database.}
         \item{Applied bioinformatic focus into copy number variation on a largest of its kind single-cell sequencing human cancer dataset.}
@@ -244,9 +287,9 @@
 %  PUBLICATIONS
 %-------------------------------------------------------------------------------
 
-%\bibliographystyle{unsrt}
-%\nocite{refsearch,pmid22848585,pmid21425413,pmid20956382,pmid20705734}
-%\bibliography{publications}
+\bibliographystyle{unsrt}
+\nocite{hirai2010myod,watanabe2011myod,verma2010flt,nakamura2012increased,talukdar2020abstract,talukdar2020defining,starr2021chemotherapy,hernandez2025after,ibing2025disease,levantovsky2024multimodal,verma2011efficient,gettler2025postoperative,han2025356,levantovsky2023253a,ibing2024tu1770,hsu2023nox1,guisado2024reparative,herb20241183,guisado2025reparative,asakura2012skeletal,motohashi2012stem}
+\bibliography{publications}
 
 %-------------------------------------------------------------------------------
 %  AWARDS
