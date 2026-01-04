@@ -1,0 +1,222 @@
+%-------------------------
+% Resume in Latex
+% Author : Chris Tastad
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage[numbers]{natbib}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Christopher Tastad} \\ \vspace{1pt}
+    \small <tel:(612) 817-7989> $|$ \href{mailto:ctastad@gmail.com}{\underline{ctastad@gmail.com}} $|$ 
+    \href{https://linkedin.com/in/ctastad}{\underline{linkedin.com/in/ctastad}} $|$
+    \href{https://github.com/ctastad}{\underline{github.com/ctastad}}
+\end{center}
+
+%-----------TECHNICAL SUMMARY-----------
+\section{Technical Summary}
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+    Principal-level bioinformatics engineer with 8+ years architecting enterprise-scale genomic platforms and establishing computational biology standards. Expert in AWS infrastructure design (0.5PB+ datasets), spatial transcriptomics methodology development, and containerized workflow systems. Proven track record of technical innovation including industry partnerships with 10x Genomics, pioneering spatial analysis pipelines, and creating foundational frameworks adopted across international research consortia.
+    }}
+\end{itemize}
+
+%-----------EXPERIENCE-----------
+\section{Technical Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Data Engineering Lead}{Feb 2021 -- Present}
+      {NIDDK IBD Genetics Consortium}{New York, NY}
+      \resumeItemListStart
+        \resumeItem{Architect and operate end-to-end enterprise-scale AWS infrastructure across 0.5PB+ genomic datasets including EC2 compute clusters, S3/Glacier storage systems, RDS databases, ELB load balancing, VPC networking, WAF security, EFS file systems, ECR, IAM, CloudFront, and SES supporting multiple public domains (ibdgc.org, ibdgenetics.org).}
+        \resumeItem{Engineered comprehensive ID harmonization platform (IDhub) unifying legacy sample/subject IDs across 20 years of consortium recruitment, developing PostgreSQL database, REST API, global subject ID resolution service, and multi-staged curation workflows with audit logging.}
+        \resumeItem{Deployed ultra-fast, web-based genomic annotation platform (Bystro) in AWS for WES/WGS analysis, reducing annotation time from days to hours for consortium-wide sequencing projects, making detailed genomic insights fast and widely accessible.}
+        \resumeItem{Implemented FAIR-compliant data distribution architecture using Open Science Framework, fundamentally improving accessibility and meeting NIH data sharing requirements for 0.5PB+ genomic datasets across international research community.}
+        \resumeItem{Established cloud-hosted automated subject identification system (REDCap-Booster) serving as central source of truth for 20-year longitudinal study recruitment and data collection, creating systematic data governance where none existed.}
+        \resumeItem{Implemented systematic deployment standards using GitHub Actions for code and data process deployments, establishing reliability frameworks and reducing technical debt across international collaborative infrastructure.}
+        \resumeItem{Implemented comprehensive data governance architecture isolating PHI data within respective compute and storage environments while enabling systematic collaboration, preventing contamination and ensuring compliance across international partnerships.}
+        \resumeItem{Developed automated metadata management systems using LabKey sample management API, reducing manual curation overhead while establishing systematic data stewardship practices.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Senior Manager, Bioinformatics}{Oct 2023 -- Present}
+      {Icahn School of Medicine at Mount Sinai, Cho Lab}{New York, NY}
+      \resumeItemListStart
+        \resumeItem{Serve as tech lead on all methodological innovation, establishing leading analytical frameworks across dozen+ major project initiatives including evolving single-cell processing, automated cell typing, multi-omic data, spatial transcriptomics, and emerging genomic platforms. Create new computational biology standards through extensive testing, validation, pipeline deployment, and custom tool development.}
+        \resumeItem{Pioneer spatial transcriptomics methodology extending Sopa for highly scalable execution and developing Parallax pipeline for noise correction, context-aware spatially differential expression, and downstream spatial analysis. Establish standard for foundational analytical frameworks enabling first-of-its-kind publications in IBD research.}
+        \resumeItem{Led institution-first Xenium spatial analyzer device deployment including custom high-power supply configuration, full security review, automated data product distribution, and system networking implementation, establishing institutional deployment standards for emerging spatial platforms.}
+        \resumeItem{Implement comprehensive data lifecycle management including storage class transition policies, 3-2-1 backup paradigm, data version control (DVC), and project-specific data registries. Achieve zero data loss incidents over 4+ years while dramatically reducing technical debt across 0.5PB+ managed data.}
+        \resumeItem{Selected as 10x Genomics beta partner for cloud hosting feature development in Xenium Explorer analysis application, directly influencing product roadmap through technical feedback and validation of cloud-specific hosting capabilities in emerging spatial genomics platforms.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Bioinformatician II}{Feb 2021 -- Oct 2023}
+      {Icahn School of Medicine at Mount Sinai, Cho Lab}{New York, NY}
+      \resumeItemListStart
+        \resumeItem{Established standardized single-cell preprocessing paradigm (CoreSC) creating unified statistical methodology across 15+ projects where none previously existed, fundamentally improving reproducibility and eliminating analysis methods inconsistency.}
+        \resumeItem{Constructed comprehensive scientific analysis application stack including containerized workflows, automated data distribution, and several multi-user self-hosted services, fundamentally lowering barriers to access and accelerating discovery outcomes for non-technical biologists.}
+        \resumeItem{Pioneered internal containerization paradigm using Docker/Kubernetes for application deployment, enabling non-technical users to deploy reproducible analysis environments in high performance compute resources.}
+        \resumeItem{Sourced, built, and deployed purpose-built \$60k+ on-prem supplementary compute infrastructure including custom nodes, expanding team computational capacity 3x at fraction of commercial alternatives.}
+        \resumeItem{Established strategic resource accessibility initiative deploying Digital Slide Archive, cloud storage integration, and containerization frameworks specifically to overcome substantial resource barriers introduced by growth of imaging and spatial transcriptomics workflows.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Graduate Research Assistant}{May 2019 -- Feb 2021}
+      {University of Minnesota Dept. of OBGYN, Starr Lab}{Minneapolis, MN}
+      \resumeItemListStart
+        \resumeItem{Executed full rewrite of cancer gene web app: deployed new ETL framework, reduced codebase, removed need for SQL database.}
+        \resumeItem{Applied bioinformatic focus into copy number variation on largest of its kind single-cell sequencing human cancer dataset.}
+        \resumeItem{Developed pipeline to automate analysis process from raw data to figures, incorporating HMM and FastCall algorithms.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Graduate Research Assistant}{Jan 2016 -- Aug 2017}
+      {National Marrow Donor Program, Bioinformatics}{Minneapolis, MN}
+      \resumeItemListStart
+        \resumeItem{Employed scientific method as an investigator in a corporate R\&D department with a focus in hematological cancers.}
+        \resumeItem{Took both basic and clinical approach to investigation in cell therapy, immunology, and organ transplant genetics.}
+        \resumeItem{Aided development of initiative around IP generation using existing company technology and 13 million patient database.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Research Associate}{Dec 2007 -- Jan 2013}
+      {The Stem Cell Institute, Asakura Lab}{Minneapolis, MN}
+      \resumeItemListStart
+        \resumeItem{Performed basic science research with a focus in skeletal muscle development, receiving 4 co-authorships.}
+        \resumeItem{Well versed in full spectrum of molecular biology, histology and cell biology wet lab techniques and diagnostics.}
+        \resumeItem{Authored significant writing efforts for group manuscripts and major grant awards, including a successful R01 bid.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Expertise}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Cloud \& Infrastructure Architecture}{: AWS (EC2, S3, Glacier, RDS, ELB, VPC, WAF, EFS, ECR, IAM, CloudFront, SES, Route53), Docker, Kubernetes, Nginx, Apache, HPC (SLURM, PBS, LSF), Linux (Ubuntu, RHEL, CentOS)} \\
+     \textbf{Programming \& Development}{: Python, R, BASH/Shell, SQL, LaTeX, HTML, CSS, JavaScript, XML, JSON, YAML, Git/GitHub, CI/CD (GitHub Actions)} \\
+     \textbf{Data Engineering \& Platforms}{: PostgreSQL, MySQL, Oracle, Data Version Control (DVC), Globus, REDCap, LabKey, OSF, Dataverse, ETL frameworks} \\
+     \textbf{Genomics \& Bioinformatics Platforms}{: Nextflow, Snakemake, 10x Genomics (Cellranger, Space Ranger), Seurat, Scanpy, CellTypist, samtools, bwa-mem, bedtools, VarScan2, GATK, Bystro, nf-core} \\
+     \textbf{Spatial Transcriptomics \& Advanced Methods}{: Visium/Xenium analysis, Sopa framework, Parallax pipeline development, Digital Slide Archive, Multi-omic integration, CITE-seq, ATAC-seq, CRISPRi} \\
+     \textbf{Analysis \& Statistical Computing}{: R (ggplot2, dplyr, Seurat, rmarkdown, shiny), Python (pandas, numpy, scipy, matplotlib, seaborn, scanpy), Statistical modeling, Machine learning, PCA, UMAP, t-SNE} \\
+     \textbf{Platform \& Service Development}{: CellxGene, Digital Slide Archive, JupyterHub, Sourcegraph, Ollama, WordPress, REST API development, Containerization} \\
+     \textbf{Data Types \& Methodologies}{: Single-cell RNA-seq, Spatial transcriptomics, ATAC-seq, CITE-seq, CRISPRi, Nanopore, WGS/WES, GWAS, AIRR-seq, Bulk RNA-seq, Copy number variation analysis}
+    }}
+ \end{itemize}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Minnesota}{Minneapolis, MN}
+      {Master of Science in Bioinformatics and Computational Biology}{2021}
+    \resumeSubheading
+      {University of Minnesota}{Minneapolis, MN}
+      {Bachelor of Science in Biochemistry, College of Biological Sciences}{2012}
+  \resumeSubHeadingListEnd
+
+%-----------TECHNICAL ACHIEVEMENTS-----------
+\section{Technical Achievements}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     • Architected enterprise AWS infrastructure supporting 0.5PB+ genomic datasets across international consortium \\
+     • Developed novel spatial transcriptomics methodology (Parallax pipeline) enabling first-of-its-kind IBD research publications \\
+     • Created standardized single-cell preprocessing framework (CoreSC) adopted across 15+ research projects \\
+     • Engineered comprehensive ID harmonization platform (IDhub) unifying 20 years of consortium data \\
+     • Selected as 10x Genomics beta partner for emerging spatial genomics platform development \\
+     • Reduced genomic annotation time from days to hours through optimized cloud platform deployment (Bystro) \\
+     • Achieved zero data loss incidents over 4+ years while managing 0.5PB+ research datasets \\
+     • Pioneered containerization paradigm enabling reproducible analysis environments for non-technical users
+    }}
+ \end{itemize}
+
+%-------------------------------------------
+\end{document}

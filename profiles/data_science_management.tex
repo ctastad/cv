@@ -1,0 +1,220 @@
+%-------------------------
+% Resume in Latex
+% Author : Chris Tastad
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage[numbers]{natbib}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Christopher Tastad} \\ \vspace{1pt}
+    \small <tel:(612) 817-7989> $|$ \href{mailto:ctastad@gmail.com}{\underline{ctastad@gmail.com}} $|$ 
+    \href{https://linkedin.com/in/ctastad}{\underline{linkedin.com/in/ctastad}} $|$
+    \href{https://github.com/ctastad}{\underline{github.com/ctastad}}
+\end{center}
+
+%-----------PROFESSIONAL SUMMARY-----------
+\section{Data Science Leadership Summary}
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+    Senior data science leader with 8+ years architecting enterprise analytics platforms and establishing data governance frameworks across 0.5PB+ genomic datasets. Expert in FAIR-compliant data distribution, regulatory compliance (HIPAA, NIH), and AI/ML platform development. Proven track record of leading cross-functional teams, implementing automated analytics pipelines, and delivering strategic insights that drive \$2M+ in organizational value through data-driven decision making and operational optimization.
+    }}
+\end{itemize}
+
+%-----------EXPERIENCE-----------
+\section{Data Science Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Data Engineering Lead}{Feb 2021 -- Present}
+      {NIDDK IBD Genetics Consortium}{New York, NY}
+      \resumeItemListStart
+        \resumeItem{Direct data governance across 650+ global collaborators spanning dozens of international consortia, ensuring HIPAA compliance and streamlined data sharing protocols for multi-site genomic studies at unprecedented scale.}
+        \resumeItem{Lead consortium data team of 4 bioinformaticians and data scientists, directing technical strategy, coordinating collaborative analysis efforts, and establishing standardized methodological approaches for consortium-wide genomic studies and data integration initiatives.}
+        \resumeItem{Implemented FAIR-compliant data distribution architecture using Open Science Framework, fundamentally improving accessibility and meeting NIH data sharing requirements for 0.5PB+ genomic datasets across international research community.}
+        \resumeItem{Engineered comprehensive ID harmonization platform (IDhub) unifying legacy sample/subject IDs across 20 years of consortium recruitment, developing PostgreSQL database, REST API, global subject ID resolution service, and multi-staged curation workflows with audit logging.}
+        \resumeItem{Deployed ultra-fast, web-based genomic annotation platform (Bystro) in AWS for WES/WGS analysis, reducing annotation time from days to hours for consortium-wide sequencing projects, making detailed genomic insights fast and widely accessible.}
+        \resumeItem{Led comprehensive reorganization of 20 years of consortium study data across multiple eras of data collection, projects, and institutional partnerships, establishing systematic data stewardship at international scale.}
+        \resumeItem{Established cloud-hosted automated subject identification system (REDCap-Booster) serving as central source of truth for 20-year longitudinal study recruitment and data collection, creating systematic data governance where none existed.}
+        \resumeItem{Implemented comprehensive data governance architecture isolating PHI data within respective compute and storage environments while enabling systematic collaboration, preventing contamination and ensuring compliance across international partnerships.}
+        \resumeItem{Developed automated metadata management systems using LabKey sample management API, reducing manual curation overhead while establishing systematic data stewardship practices.}
+        \resumeItem{Replaced \$250K+ annual vendor contracts with cost-effective open-source solutions, meeting and exceeding data processing and hosting requirements while demonstrating strategic resource optimization.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Senior Manager, Bioinformatics}{Oct 2023 -- Present}
+      {Icahn School of Medicine at Mount Sinai, Cho Lab}{New York, NY}
+      \resumeItemListStart
+        \resumeItem{Lead 5-person bioinformatics team driving technical strategy for cutting-edge genomic analysis across 10+ concurrent multi-year projects, establishing collaborative frameworks where none previously existed.}
+        \resumeItem{Serve as tech lead on all methodological innovation, establishing leading analytical frameworks across dozen+ major project initiatives including evolving single-cell processing, automated cell typing, multi-omic data, spatial transcriptomics, and emerging genomic platforms.}
+        \resumeItem{Pioneer spatial transcriptomics methodology extending Sopa for highly scalable execution and developing Parallax pipeline for noise correction, context-aware spatially differential expression, and downstream spatial analysis, establishing standard for foundational analytical frameworks.}
+        \resumeItem{Implement comprehensive data lifecycle management including storage class transition policies, 3-2-1 backup paradigm, data version control (DVC), and project-specific data registries. Achieve zero data loss incidents over 4+ years while dramatically reducing technical debt across 0.5PB+ managed data.}
+        \resumeItem{Selected as 10x Genomics beta partner for cloud hosting feature development in Xenium Explorer analysis application, directly influencing product roadmap through technical feedback and validation of cloud-specific hosting capabilities.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Bioinformatician II}{Feb 2021 -- Oct 2023}
+      {Icahn School of Medicine at Mount Sinai, Cho Lab}{New York, NY}
+      \resumeItemListStart
+        \resumeItem{Contributed to \$2M+ grant renewals through technical leadership, experimental design, and strategic vision, providing data management expertise across all consortium projects and influencing methodological approaches at international scale.}
+        \resumeItem{Established standardized single-cell preprocessing paradigm (CoreSC) creating unified statistical methodology across 15+ projects where none previously existed, fundamentally improving reproducibility and eliminating analysis methods inconsistency.}
+        \resumeItem{Constructed comprehensive scientific analysis application stack including containerized workflows, automated data distribution, and several multi-user self-hosted services, fundamentally lowering barriers to access and accelerating discovery outcomes.}
+        \resumeItem{Pioneered internal containerization paradigm using Docker/Kubernetes for application deployment, enabling non-technical users to deploy reproducible analysis environments in high performance compute resources.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Graduate Research Assistant}{May 2019 -- Feb 2021}
+      {University of Minnesota Dept. of OBGYN, Starr Lab}{Minneapolis, MN}
+      \resumeItemListStart
+        \resumeItem{Applied advanced bioinformatic analysis to copy number variation on largest single-cell sequencing human cancer dataset of its kind, developing novel analytical approaches for genomic variation detection.}
+        \resumeItem{Developed automated analysis pipeline from raw data to publication-ready figures, incorporating Hidden Markov Models (HMM) and FastCall algorithms for statistical genomic analysis.}
+        \resumeItem{Executed full rewrite of cancer gene web application, deploying new ETL framework and reducing technical debt while improving system performance and data accessibility.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Graduate Research Assistant}{Jan 2016 -- Aug 2017}
+      {National Marrow Donor Program, Bioinformatics}{Minneapolis, MN}
+      \resumeItemListStart
+        \resumeItem{Served as data scientist in corporate R\&D department focusing on hematological cancers, contributing to IP generation initiatives using 13 million patient database for predictive analytics and clinical insights.}
+        \resumeItem{Developed integrated clinical and basic research approaches in cell therapy, immunology, and organ transplant genetics, applying statistical modeling to large-scale patient datasets.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Biorepository Technician}{Sep 2014 -- Jan 2016}
+      {National Marrow Donor Program, Research Repository}{New Brighton, MN}
+      \resumeItemListStart
+        \resumeItem{Managed 300k patient database and long-term storage for FDA and Clinical Trials Network samples using Good Laboratory Practice (GLP) standards, ensuring data integrity and regulatory compliance.}
+        \resumeItem{Conducted high-throughput specimen processing in clinical laboratory facility, processing 1000s of samples per day while maintaining rigorous quality control and data tracking protocols.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------TECHNICAL SKILLS-----------
+\section{Data Science \& Analytics Expertise}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Data Science \& Machine Learning}{: Statistical modeling, Machine learning, Predictive analytics, PCA, UMAP, t-SNE, Hidden Markov Models, Automated cell typing, Multi-omic integration, Pattern recognition} \\
+     \textbf{Programming \& Analysis}{: Python (pandas, numpy, scipy, matplotlib, seaborn, scikit-learn), R (ggplot2, dplyr, Seurat, rmarkdown, shiny), SQL, BASH/Shell, Statistical computing} \\
+     \textbf{Data Governance \& Compliance}{: FAIR data principles, HIPAA compliance, NIH data sharing, PHI data management, Data stewardship, Regulatory frameworks, Audit logging, Data version control (DVC)} \\
+     \textbf{Cloud Analytics Platforms}{: AWS (EC2, S3, RDS, CloudFront), PostgreSQL, MySQL, Oracle, REDCap, LabKey, Open Science Framework, Dataverse, ETL frameworks} \\
+     \textbf{Genomics Analytics}{: Single-cell RNA-seq, Spatial transcriptomics, WGS/WES analysis, GWAS, Copy number variation, Multi-omic data integration, Genomic annotation, Variant analysis} \\
+     \textbf{Platform Development}{: REST API development, Database design, Automated workflows, Containerization (Docker/Kubernetes), CI/CD pipelines, Metadata management systems} \\
+     \textbf{Visualization \& Reporting}{: Interactive dashboards, Publication-quality figures, Web applications, Data storytelling, Executive reporting, Scientific communication}
+    }}
+ \end{itemize}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Minnesota}{Minneapolis, MN}
+      {Master of Science in Bioinformatics and Computational Biology}{2021}
+    \resumeSubheading
+      {University of Minnesota}{Minneapolis, MN}
+      {Bachelor of Science in Biochemistry, College of Biological Sciences}{2012}
+  \resumeSubHeadingListEnd
+
+%-----------KEY ANALYTICS ACHIEVEMENTS-----------
+\section{Data Science Achievements}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     • Established FAIR-compliant data governance framework for 0.5PB+ genomic datasets across international consortium \\
+     • Developed automated ID harmonization platform (IDhub) unifying 20 years of longitudinal study data \\
+     • Implemented standardized statistical methodology (CoreSC) adopted across 15+ research projects \\
+     • Reduced genomic annotation processing time from days to hours through optimized analytics platform deployment \\
+     • Led data team of 4 scientists coordinating analysis efforts across 650+ global collaborators \\
+     • Achieved zero data loss incidents over 4+ years while managing enterprise-scale research datasets \\
+     • Contributed to \$2M+ in successful grant renewals through data management expertise and strategic analytics \\
+     • Delivered \$250K+ annual cost savings through strategic analytics platform optimization
+    }}
+ \end{itemize}
+
+%-------------------------------------------
+\end{document}
