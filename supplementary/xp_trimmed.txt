@@ -24,8 +24,8 @@ Feb 2021 -- Oct 2023
 - Established organizational knowledge management implementing Atlassian services (Confluence/Jira) across team and consortium with rigorous information organization standards, transforming institutional memory and project tracking capabilities.
 - Established strategic resource accessibility initiative deploying Digital Slide Archive, cloud storage integration, and containerization frameworks specifically to overcome substantial resource barriers introduced by growth of imaging and spatial transcriptomics workflows.
 
-% data engineering lead
-Data Engineering Lead
+% lead data engineer
+Lead Data Engineer
 NIDDK IBD Genetics Consortium
 Feb 2021 -- Present
 - Direct data governance across 650+ global collaborators spanning dozens of international consortia and several dozen partner institutions, ensuring HIPAA compliance and streamlined data sharing protocols for multi-site genomic studies at unprecedented scale.
