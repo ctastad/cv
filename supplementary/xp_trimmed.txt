@@ -16,7 +16,7 @@ Oct 2023 -- Present
 Bioinformatician II
 Icahn School of Medicine at Mount Sinai, Cho Lab
 Feb 2021 -- Oct 2023
-- Contributed to $2M+ grant renewals through technical leadership, experimental design, and strategic vision, providing data management expertise across all consortium projects and influencing methodological approaches at international scale.
+- Contributed to $9.5M+ grant awards through technical leadership, experimental design, and strategic vision, providing data management expertise across all consortium projects and influencing methodological approaches at international scale.
 - Sourced, built, and deployed purpose-built $60k+ on-prem supplementary compute infrastructure including custom nodes, expanding team computational capacity 3x at fraction of commercial alternatives.
 - Established standardized single-cell preprocessing paradigm (CoreSC) creating unified statistical methodology across 15+ projects where none previously existed, fundamentally improving reproducibility and eliminating analysis methods inconsistency.
 - Constructed comprehensive scientific analysis application stack including containerized workflows, automated data distribution, and several multi-user self-hosted services, fundamentally lowering barriers to access and accelerating discovery outcomes for non-technical biologists.
