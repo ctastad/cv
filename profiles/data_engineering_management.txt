@@ -1,0 +1,107 @@
+Christopher Tastad
+(612) 817-7989 | ctastad@gmail.com | linkedin.com/in/ctastad | github.com/ctastad
+
+---
+
+DATA SCIENCE LEADERSHIP SUMMARY
+
+Senior data management leader with 8+ years architecting enterprise analytics platforms and establishing data governance frameworks across 0.5PB+ genomic datasets. Expert in FAIR-compliant data distribution, regulatory compliance (HIPAA, NIH), and AI/ML platform development. Proven track record of leading cross-functional teams, implementing automated analytics pipelines, and delivering strategic insights that drive $9.5M+ in organizational value through data-driven decision making and operational optimization.
+
+---
+
+DATA SCIENCE EXPERIENCE
+
+Lead Data Engineer | Feb 2021 -- Present
+NIDDK IBD Genetics Consortium | New York, NY
+
+- Direct data governance across 650+ global collaborators spanning dozens of international consortia, ensuring HIPAA compliance and streamlined data sharing protocols for multi-site genomic studies at unprecedented scale.
+- Lead consortium data team of 4 bioinformaticians and data scientists, directing technical strategy, coordinating collaborative analysis efforts, and establishing standardized methodological approaches for consortium-wide genomic studies and data integration initiatives.
+- Implemented FAIR-compliant data distribution architecture using Open Science Framework, fundamentally improving accessibility and meeting NIH data sharing requirements for 0.5PB+ genomic datasets across international research community.
+- Engineered comprehensive ID harmonization platform (IDhub) unifying legacy sample/subject IDs across 20 years of consortium recruitment, developing PostgreSQL database, REST API, global subject ID resolution service, and multi-staged curation workflows with audit logging.
+- Deployed ultra-fast, web-based genomic annotation platform in AWS for WES/WGS analysis, reducing annotation time from days to hours for consortium-wide sequencing projects, making detailed genomic insights fast and widely accessible.
+- Led comprehensive reorganization of 20 years of consortium study data across multiple eras of data collection, projects, and institutional partnerships, establishing systematic data stewardship at an international scale.
+- Established cloud-hosted automated subject identification system serving as central source of truth for longitudinal study recruitment and data collection, creating systematic data governance where none existed.
+- Implemented comprehensive data governance architecture focused on isolating PHI data within respective compute and storage environments, preventing contamination and ensuring compliance across institutional boundaries.
+- Developed automated metadata management systems using LabKey sample management API, reducing manual curation overhead while establishing systematic data stewardship practices.
+- Replaced $250K+ annual vendor contracts with cost-effective open-source solutions, meeting and exceeding data processing and hosting requirements while demonstrating strategic resource optimization.
+
+Senior Manager, Bioinformatics | Oct 2023 -- Present
+Icahn School of Medicine at Mount Sinai, Cho Lab | New York, NY
+
+- Lead 5-person bioinformatics team driving technical strategy for cutting-edge genomic analysis across 10+ concurrent multi-year projects, establishing collaborative frameworks where none previously existed.
+- Serve as tech lead on all methodological innovation, establishing leading analytical frameworks across dozen+ major project initiatives including evolving single-cell processing, automated cell typing, multi-omic data, spatial transcriptomics, and emerging genomic platforms.
+- Pioneer spatial transcriptomics methodology extending Sopa for highly scalable execution and developing Parallax pipeline for noise correction, context-aware spatially differential expression, and downstream spatial analysis, establishing standard for foundational analytical frameworks.
+- Implement comprehensive data lifecycle management including storage class transition policies, 3-2-1 backup paradigm, data version control (DVC), and project-specific data registries. Achieve zero data loss incidents over 4+ years while dramatically reducing technical debt across 0.5PB+ managed data.
+- Selected as 10x Genomics beta partner for cloud hosting feature development in Xenium Explorer analysis application, directly influencing product roadmap through technical feedback and validation of cloud-specific hosting capabilities.
+- Developed official Mount Sinai institutional execution profile for nf-core pipelines, creating standardized HPC configuration endorsed by core scientific computing team and accepted as open-source contribution to nf-core community codebase.
+- Implemented enterprise Sourcegraph deployment and served as admin for secure team LLM access, pioneering integration of AI-assisted development tools in bioinformatics workflows and establishing institutional standards for responsible AI adoption in genomic analysis.
+
+Bioinformatician II | Feb 2021 -- Oct 2023
+Icahn School of Medicine at Mount Sinai, Cho Lab | New York, NY
+
+- Contributed to $9.5M+ grant awards through technical leadership, experimental design, and strategic vision, providing data management expertise across all consortium projects and influencing methodological approaches at international scale.
+- Established standardized single-cell preprocessing paradigm (CoreSC) creating unified statistical methodology across 15+ projects where none previously existed, fundamentally improving reproducibility and eliminating analysis methods inconsistencies.
+- Constructed comprehensive scientific analysis application stack including containerized workflows, automated data distribution, and several multi-user self-hosted services, fundamentally lowering barriers to access and accelerating discovery outcomes.
+- Pioneered internal containerization paradigm using Docker/Kubernetes for application deployment, enabling non-technical users to deploy reproducible analysis environments in high performance compute resources.
+
+Graduate Research Assistant | May 2019 -- Feb 2021
+University of Minnesota Dept. of OBGYN, Starr Lab | Minneapolis, MN
+
+- Applied advanced bioinformatic analysis to copy number variation on largest single-cell sequencing human cancer dataset of its kind, developing novel analytical approaches for genomic variation detection.
+- Developed automated analysis pipeline from raw data to publication-ready figures, incorporating Hidden Markov Models (HMM) and FastCall algorithms for statistical genomic analysis.
+- Executed full rewrite of cancer gene web application, deploying new ETL framework and reducing technical debt while improving system performance and data accessibility.
+
+Graduate Research Assistant | Jan 2016 -- Aug 2017
+National Marrow Donor Program, Bioinformatics | Minneapolis, MN
+
+- Served as data scientist in corporate R&D department focusing on hematological cancers, contributing to IP generation initiatives using 13 million patient database for predictive analytics and clinical insights.
+- Developed integrated clinical and basic research approaches in cell therapy, immunology, and organ transplant genetics, applying statistical modeling to large-scale patient datasets.
+
+Biorepository Technician | Sep 2014 -- Jan 2016
+National Marrow Donor Program, Research Repository | New Brighton, MN
+
+- Managed 300k patient database and long-term storage for FDA and Clinical Trials Network samples using Good Laboratory Practice (GLP) standards, ensuring data integrity and regulatory compliance.
+- Conducted high-throughput specimen processing in clinical laboratory facility, processing thousands of samples per day while maintaining rigorous quality control and data tracking protocols.
+
+---
+
+TECHNICAL ACHIEVEMENTS
+
+- Established FAIR-compliant data governance framework for 0.5PB+ genomic datasets across international consortium
+- Developed automated ID harmonization platform (IDhub) unifying 20 years of longitudinal study data
+- Implemented standardized statistical methodology (CoreSC) adopted across 15+ research projects
+- Reduced genomic annotation processing time from days to hours through optimized analytics platform deployment
+- Led data team of 4 scientists coordinating analysis efforts across 650+ global collaborators
+- Achieved zero data loss incidents over 4+ years while managing enterprise-scale research datasets
+- Contributed to $9.5M+ in successful grant awards through data management expertise and strategic analytics
+- Delivered $250K+ annual cost savings through strategic analytics platform optimization
+- Pioneered enterprise AI integration deployment and secure LLM access for bioinformatics team workflows
+- Developed official institutional nf-core nextflow execution profile accepted as open-source contribution
+
+---
+
+DATA SCIENCE & ANALYTICS EXPERTISE
+
+Data Science & Machine Learning: Statistical modeling, Machine learning, Predictive analytics, PCA, UMAP, t-SNE, Hidden Markov Models, Automated cell typing, Multi-omic integration, Pattern recognition
+
+Programming & Analysis: Python (pandas, numpy, scipy, matplotlib, seaborn, scikit-learn), R (ggplot2, dplyr, Seurat, rmarkdown, shiny), SQL, BASH/Shell, Statistical computing
+
+Data Governance & Compliance: FAIR data principles, HIPAA compliance, NIH data sharing, PHI data management, Data stewardship, Regulatory frameworks, Audit logging, Data version control (DVC)
+
+Cloud Analytics Platforms: AWS (EC2, S3, RDS, CloudFront), PostgreSQL, MySQL, Oracle, REDCap, LabKey, Open Science Framework, Dataverse, ETL frameworks
+
+Genomics Analytics: Single-cell RNA-seq, Spatial transcriptomics, WGS/WES analysis, GWAS, Copy number variation, Multi-omic data integration, Genomic annotation, Variant analysis
+
+Platform Development: REST API development, Database design, Automated workflows, Containerization (Docker/Kubernetes), CI/CD pipelines, Metadata management systems
+
+Visualization & Reporting: Interactive dashboards, Publication-quality figures, Web applications, Data storytelling, Executive reporting, Scientific communication
+
+---
+
+EDUCATION
+
+University of Minnesota | Minneapolis, MN
+Master of Science in Bioinformatics and Computational Biology | 2021
+
+University of Minnesota | Minneapolis, MN
+Bachelor of Science in Biochemistry, College of Biological Sciences | 2012

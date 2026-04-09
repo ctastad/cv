@@ -1,0 +1,112 @@
+Christopher Tastad
+(612) 817-7989 | ctastad@gmail.com | linkedin.com/in/ctastad | github.com/ctastad
+
+---
+
+EXECUTIVE SUMMARY
+
+Senior bioinformatics leader with 5+ years managing technical teams and driving organizational transformation across academic and consortium environments. Proven track record of scaling operations from startup to enterprise level, delivering $250K+ in vendor cost savings, and offering leadership to 650+ global collaborators across international research efforts. Expert in building high-performance teams, establishing data governance frameworks, and translating complex technical initiatives into strategic business outcomes.
+
+---
+
+LEADERSHIP EXPERIENCE
+
+Senior Manager, Bioinformatics | Oct 2023 -- Present
+Icahn School of Medicine at Mount Sinai, Cho Lab | New York, NY
+
+- Lead 5-person bioinformatics team driving technical strategy for cutting-edge genomic analysis across 10+ concurrent multi-year projects, establishing collaborative frameworks where none previously existed.
+- Designed comprehensive personnel management systems spanning quarterly workload assessments, recruitment and screening of technical personnel, and knowledge transfer protocols for personnel transitions, fundamentally improving project delivery and organizational continuity.
+- Established rigorous project management standards implementing per-project repository management, version control adoption, and documentation frameworks, transforming publication packaging quality and efficiency from ad-hoc to systematic solutions.
+- Implemented enterprise Sourcegraph deployment and served as admin for secure team LLM access, pioneering integration of AI-assisted development tools in bioinformatics workflows and establishing institutional standards for responsible AI adoption in genomic analysis.
+- Introduced light Agile methods including daily stand-ups, weekly office hours, and data round table meetings, fostering systematic collaboration across on-site and remote staff in previously siloed environment.
+- Led institution-first Xenium spatial analyzer device deployment including custom configuration, full security review, and system implementation, establishing institutional deployment standards for emerging platforms.
+- Selected as 10x Genomics beta partner for cloud hosting feature development, directly influencing product roadmap through strategic feedback and validation of enterprise capabilities.
+
+Lead Data Engineer | Feb 2021 -- Present
+NIDDK IBD Genetics Consortium | New York, NY
+
+- Direct data governance across 650+ global collaborators spanning dozens of international consortia and partner institutions, ensuring HIPAA compliance and streamlined data sharing protocols for multi-site genomic studies.
+- Lead consortium data team of 4 bioinformaticians and data scientists, directing technical strategy, coordinating collaborative analysis efforts, and establishing standardized methodological approaches for consortium-wide studies.
+- Replaced $250K+ annual vendor contracts with cost-effective open-source solutions, meeting and exceeding data processing requirements while demonstrating strategic resource optimization at consortium scale.
+- Led comprehensive Google Workspace transition for inter-institutional collaboration, serving as super-admin for 200+ user base while establishing policy management and communication frameworks enabling systematic international coordination.
+- Designed comprehensive brand strategy for IBDGC including graphic redesign, web services architecture, international partnership platforms, and consortium visibility initiatives, fundamentally improving global research coordination capabilities.
+- Established cross-institutional methods working groups facilitating knowledge transfer and standardization across partner sites, creating systematic collaboration frameworks for international research coordination.
+
+Bioinformatician II | Feb 2021 -- Oct 2023
+Icahn School of Medicine at Mount Sinai, Cho Lab | New York, NY
+
+- Contributed to $9.5M+ grant awards through technical leadership, experimental design, and strategic vision, providing data management expertise across all consortium projects and influencing methodological approaches at international scale.
+- Sourced, built, and deployed purpose-built $60k+ on-prem supplementary compute infrastructure, expanding team computational capacity 3x at fraction of commercial alternatives through strategic vendor negotiations and technical planning.
+- Established organizational knowledge management implementing Atlassian services (Confluence/Jira) across team and consortium with rigorous information organization standards, transforming institutional memory and project tracking capabilities.
+- Developed official Mount Sinai institutional execution profile for nf-core pipelines, creating standardized HPC configuration endorsed by core scientific computing team and accepted as open-source contribution to nf-core community codebase.
+- Established strategic resource accessibility initiative deploying enterprise-grade platforms specifically to overcome substantial resource barriers, enabling scalable growth of imaging and spatial transcriptomics workflows.
+
+Supervisor | Oct 2017 -- Oct 2018
+UPS, Small Sort Operations | Minneapolis, MN
+
+- Managed a team of 35 direct reports in largest operational unit in the Northern Plains District HQ hub, overseeing daily operations and performance optimization.
+- Delivered an immediate 15% production increase to area within first month (representing 40% of daily volume) through process improvements and team development initiatives.
+- Developed novel improvement projects leading to elimination of package missorts and enhanced training programs with disability access accommodations.
+
+Load Planning Engineer | Oct 2018 -- Jan 2021
+UPS, Industrial Engineering | Minneapolis, MN
+
+- Primary authority in guiding all load functions for 112 outbound doors, mediating hub, feeder, and engineering priorities across complex operational environment.
+- Advanced district level interests through industrial engineering technologies for operational, flow, and system analysis, contributing to regional efficiency improvements.
+- Generated daily cost savings through identification and elimination of inefficient trailer runs averaging $500-1,000 value per optimization.
+
+---
+
+TECHNICAL EXPERIENCE
+
+Graduate Research Assistant | May 2019 -- Feb 2021
+University of Minnesota Dept. of OBGYN, Starr Lab | Minneapolis, MN
+
+- Executed full rewrite of cancer gene web application, deploying new ETL framework and reducing technical debt while improving system performance.
+- Applied bioinformatic analysis to copy number variation on largest single-cell sequencing human cancer dataset of its kind.
+
+Graduate Research Assistant | Jan 2016 -- Aug 2017
+National Marrow Donor Program, Bioinformatics | Minneapolis, MN
+
+- Served as investigator in corporate R&D department focusing on hematological cancers, contributing to IP generation initiatives using 13 million patient database.
+- Developed clinical and basic research approaches in cell therapy, immunology, and organ transplant genetics.
+
+Research Associate | Dec 2007 -- Jan 2013
+The Stem Cell Institute, Asakura Lab | Minneapolis, MN
+
+- Performed basic science research in skeletal muscle development, receiving 4 co-authorships and contributing to successful R01 grant applications.
+- Authored significant writing efforts for group manuscripts and major grant awards, demonstrating scientific communication and strategic planning capabilities.
+
+---
+
+KEY ACHIEVEMENTS
+
+- Led 650+ global collaborators across international genomics consortium
+- Delivered $250K+ annual cost savings through strategic vendor optimization
+- Contributed to $9.5M+ in successful grant awards through technical leadership
+- Established data governance frameworks for 0.5PB+ genomic datasets
+- Selected as industry beta partner for emerging genomics platform development
+- Pioneered enterprise AI integration deployment and secure LLM access for bioinformatics team workflows
+- Developed official institutional nf-core nextflow execution profile accepted as open-source contribution
+
+---
+
+CORE COMPETENCIES
+
+Leadership & Management: Team leadership, Strategic planning, Personnel development, Cross-institutional collaboration, Project management, Agile methodologies, Change management
+
+Business Operations: Budget management, Vendor negotiations, Cost optimization, Grant writing, Regulatory compliance, Risk management, Process improvement
+
+Technical Strategy: Data governance, Infrastructure architecture, Platform development, Technology evaluation, Digital transformation, Enterprise systems
+
+Genomics & Data Science: Bioinformatics, Statistical analysis, Machine learning, Cloud computing (AWS), Database management, Workflow automation
+
+---
+
+EDUCATION
+
+University of Minnesota | Minneapolis, MN
+Master of Science in Bioinformatics and Computational Biology | 2021
+
+University of Minnesota | Minneapolis, MN
+Bachelor of Science in Biochemistry, College of Biological Sciences | 2012
