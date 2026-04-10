@@ -36,12 +36,22 @@ knitr::opts_chunk$set(eval = F, echo = F, warning = F, message = F)
 
 # Professional Profile {.center}
 
-## What I Bring
+## Fit Check
+
+**What I Bring**
 
 > - A diversity of technical and soft skills that can be adapted across a broad range of contexts
 > - Fluency operating as both an individual contributor and a people leader
 > - A track record of doing the boring stuff well
 > - The choice to elevate the people around me as a deliberate practice
+
+**What I'm Looking For**
+
+> - Mission-driven science and enterprise
+> - Resources that provide opportunities to push limits of scaling
+> - Strong team dynamics that reinforce the technical domain and foster success
+> - The flexibility to optimise and shape process to serve that mission
+
 
 ## Guiding Principles
 
@@ -60,8 +70,9 @@ knitr::opts_chunk$set(eval = F, echo = F, warning = F, message = F)
 **Bridging Software Engineering & Genomics**
 
 - **Cloud Architecture:** AWS enterprise infrastructure (EC2, S3, RDS, VPC, IAM, ECR)
-- **Genomic Platforms:** Single-cell, spatial transcriptomics, WGS/WES pipelines
-- **Software Development:** Python, R, Nextflow, CI/CD, REST APIs
+- **Genomic Platforms:** Single-cell, spatial transcriptomics, WGS/WES pipelines, multi-omics
+- **Software Development:** Python, R, Nextflow, CI/CD, REST APIs, code and data versioning
+- **Environment Management:** Custom built hardware, containerized dev envs, web services to fit needs
 - **Data Scale:** 0.5PB+ genomic datasets, 650+ global collaborators
 
 ################################################################################
@@ -99,14 +110,13 @@ knitr::opts_chunk$set(eval = F, echo = F, warning = F, message = F)
 **New capabilities, systems, and practices introduced where none previously existed.**
 
 > - **Cloud infrastructure** — first AWS migration for a 20-year consortium project previously running on-prem
-> - **Standardized analysis** — unified, containerized framework replacing 12+ ad-hoc team workflows
+> - **Standardized analysis** — unified, containerized framework replacing half a dozen ad-hoc team workflows
 > - **Distributed compute** — Nextflow-based pipeline execution across HPC and cloud, replacing serial single-machine patterns
 > - **Reproducible environments** — renv, Docker, and CI/CD introduced to teams running unversioned local-only stacks
 > - **Automated cell annotation** — reference-based and ML-driven labeling (CellTypist, scANVI) replacing manual assignment
 > - **GPU-accelerated workflows** — RAPIDS/scVI tooling established for teams running entirely CPU-bound pipelines
 > - **Knowledge management** — Confluence/Jira implemented across a consortium running on undocumented institutional memory
 > - **FAIR data distribution** — structured, auditable release workflows replacing ad hoc data sharing
-> - **On-premises compute** — purpose-built HPC nodes designed and deployed from scratch
 
 
 ## Key Achievements
@@ -116,7 +126,7 @@ knitr::opts_chunk$set(eval = F, echo = F, warning = F, message = F)
 > - **Architected** enterprise AWS infrastructure supporting 0.5PB+ genomic and clinical datasets
 > - **Built** $60K+ on-prem compute infrastructure expanding non-technical team compute capacity dramatically
 > - **Developed** novel spatial transcriptomics methodologies (Parallax, extension of Sopa, Nova)
-> - **Created** standardized single-cell framework (CoreSC) adopted across 12+ projects
+> - **Created** standardized single-cell framework adopted across 12+ projects
 > - **Engineered** ID harmonization platform (IDhub) unifying 20 years of longitudinal data
 > - **Achieved** zero data loss incidents over 5+ years of data management
 > - **Selected** as 10x Genomics beta partner for spatial platform development
@@ -595,19 +605,19 @@ process {
 
 **The Roles**
 
-- **Lobbyist** – Stakeholder communication, coalition building, legislative process navigation
-- **UPS Operations** – Logistics systems, high-pressure throughput, operational accountability
-- **Manual & Farm Labor** – Physical discipline, grunt work, real-time execution
+> - **Lobbyist** – Stakeholder communication, coalition building, legislative process navigation
+> - **UPS Operations** – Logistics systems, high-pressure throughput, operational accountability
+> - **Manual & Farm Labor** – Physical discipline, grunt work, real-time execution
 
 **Transferable Skills**
 
-- Communication that works across every audience
-- The ability to do hard, unglamorous things without complaint
-- Respect for operational complexity at every level of an organization
-- Translating technical work for non-technical decision makers
-- Comfort with ambiguity, durability under pressure, execution focus
-- Empathy for people below my station
-- The diplomacy to navigate challenging work environments
+> - Communication that works across every audience
+> - The ability to do hard, unglamorous things without complaint
+> - Respect for operational complexity at every level of an organization
+> - Translating technical work for non-technical decision makers
+> - Comfort with ambiguity, durability under pressure, execution focus
+> - Empathy for people below my station
+> - The diplomacy to navigate challenging work environments
 
 ################################################################################
 

@@ -509,34 +509,46 @@ document.addEventListener('DOMContentLoaded', function(e) {
 <h1 class="center">Professional Profile</h1>
 
 </section>
-<section id="what-i-bring" class="slide level2">
-<h2>What I Bring</h2>
+<section id="fit-check" class="slide level2">
+<h2>Fit Check</h2>
+<p><strong>What I Bring</strong></p>
 <ul>
-<li>A diversity of technical and soft skills that can be adapted across
-a broad range of contexts</li>
-<li>Fluency operating as both an individual contributor and a people
-leader</li>
-<li>A track record of doing the boring stuff well</li>
-<li>The choice to elevate the people around me as a deliberate
-practice</li>
+<li class="fragment">A diversity of technical and soft skills that can
+be adapted across a broad range of contexts</li>
+<li class="fragment">Fluency operating as both an individual contributor
+and a people leader</li>
+<li class="fragment">A track record of doing the boring stuff well</li>
+<li class="fragment">The choice to elevate the people around me as a
+deliberate practice</li>
+</ul>
+<p><strong>What I’m Looking For</strong></p>
+<ul>
+<li class="fragment">Mission-driven science and enterprise</li>
+<li class="fragment">Resources that provide opportunities to push limits
+of scaling</li>
+<li class="fragment">Strong team dynamics that reinforce the technical
+domain and foster success</li>
+<li class="fragment">The flexibility to optimise and shape process to
+serve that mission</li>
 </ul>
 </section>
 <section id="guiding-principles" class="slide level2">
 <h2>Guiding Principles</h2>
 <p><strong>How I approach the work</strong></p>
 <ul>
-<li>Every technical decision is also a resource decision — good
-engineering, science, or leadership are inseparable from good
-economics</li>
-<li>Enterprise best practices belong in research environments</li>
-<li>If we have to get dogmatic about something it should be
-reproducibility and statistical rigor</li>
-<li>Solutions sized to actual requirements — pragmatic over fashionable,
-right-sized instead of over-engineered</li>
-<li>Straightforward honesty about tradeoffs, timelines, and limitations;
-trust is built on clarity, not optimism</li>
-<li>The science is always the point — tools exist to serve outcomes, not
-demonstrate technical sophistication</li>
+<li class="fragment">Every technical decision is also a resource
+decision — good engineering, science, or leadership are inseparable from
+good economics</li>
+<li class="fragment">Enterprise best practices belong in research
+environments</li>
+<li class="fragment">If we have to get dogmatic about something it
+should be reproducibility and statistical rigor</li>
+<li class="fragment">Solutions sized to actual requirements — pragmatic
+over fashionable, right-sized instead of over-engineered</li>
+<li class="fragment">Straightforward honesty about tradeoffs, timelines,
+and limitations; trust is built on clarity, not optimism</li>
+<li class="fragment">The science is always the point — tools exist to
+serve outcomes, not demonstrate technical sophistication</li>
 </ul>
 </section>
 <section id="professional-summary" class="slide level2">
@@ -546,9 +558,11 @@ demonstrate technical sophistication</li>
 <li><strong>Cloud Architecture:</strong> AWS enterprise infrastructure
 (EC2, S3, RDS, VPC, IAM, ECR)</li>
 <li><strong>Genomic Platforms:</strong> Single-cell, spatial
-transcriptomics, WGS/WES pipelines</li>
+transcriptomics, WGS/WES pipelines, multi-omics</li>
 <li><strong>Software Development:</strong> Python, R, Nextflow, CI/CD,
-REST APIs</li>
+REST APIs, code and data versioning</li>
+<li><strong>Environment Management:</strong> Custom built hardware,
+containerized dev envs, web services to fit needs</li>
 <li><strong>Data Scale:</strong> 0.5PB+ genomic datasets, 650+ global
 collaborators</li>
 </ul>
@@ -581,51 +595,57 @@ exponential scaling</em></p>
 <p><strong>New capabilities, systems, and practices introduced where
 none previously existed.</strong></p>
 <ul>
-<li><strong>Cloud infrastructure</strong> — first AWS migration for a
-20-year consortium project previously running on-prem</li>
-<li><strong>Standardized analysis</strong> — unified, containerized
-framework replacing 12+ ad-hoc team workflows</li>
-<li><strong>Distributed compute</strong> — Nextflow-based pipeline
-execution across HPC and cloud, replacing serial single-machine
-patterns</li>
-<li><strong>Reproducible environments</strong> — renv, Docker, and CI/CD
-introduced to teams running unversioned local-only stacks</li>
-<li><strong>Automated cell annotation</strong> — reference-based and
-ML-driven labeling (CellTypist, scANVI) replacing manual assignment</li>
-<li><strong>GPU-accelerated workflows</strong> — RAPIDS/scVI tooling
-established for teams running entirely CPU-bound pipelines</li>
-<li><strong>Knowledge management</strong> — Confluence/Jira implemented
-across a consortium running on undocumented institutional memory</li>
-<li><strong>FAIR data distribution</strong> — structured, auditable
-release workflows replacing ad hoc data sharing</li>
-<li><strong>On-premises compute</strong> — purpose-built HPC nodes
-designed and deployed from scratch</li>
+<li class="fragment"><strong>Cloud infrastructure</strong> — first AWS
+migration for a 20-year consortium project previously running
+on-prem</li>
+<li class="fragment"><strong>Standardized analysis</strong> — unified,
+containerized framework replacing half a dozen ad-hoc team
+workflows</li>
+<li class="fragment"><strong>Distributed compute</strong> —
+Nextflow-based pipeline execution across HPC and cloud, replacing serial
+single-machine patterns</li>
+<li class="fragment"><strong>Reproducible environments</strong> — renv,
+Docker, and CI/CD introduced to teams running unversioned local-only
+stacks</li>
+<li class="fragment"><strong>Automated cell annotation</strong> —
+reference-based and ML-driven labeling (CellTypist, scANVI) replacing
+manual assignment</li>
+<li class="fragment"><strong>GPU-accelerated workflows</strong> —
+RAPIDS/scVI tooling established for teams running entirely CPU-bound
+pipelines</li>
+<li class="fragment"><strong>Knowledge management</strong> —
+Confluence/Jira implemented across a consortium running on undocumented
+institutional memory</li>
+<li class="fragment"><strong>FAIR data distribution</strong> —
+structured, auditable release workflows replacing ad hoc data
+sharing</li>
 </ul>
 </section>
 <section id="key-achievements" class="slide level2">
 <h2>Key Achievements</h2>
 <p><strong>Quantifiable Outcomes</strong></p>
 <ul>
-<li><strong>Architected</strong> enterprise AWS infrastructure
-supporting 0.5PB+ genomic and clinical datasets</li>
-<li><strong>Built</strong> $60K+ on-prem compute infrastructure
-expanding non-technical team compute capacity dramatically</li>
-<li><strong>Developed</strong> novel spatial transcriptomics
-methodologies (Parallax, extension of Sopa, Nova)</li>
-<li><strong>Created</strong> standardized single-cell framework (CoreSC)
-adopted across 12+ projects</li>
-<li><strong>Engineered</strong> ID harmonization platform (IDhub)
-unifying 20 years of longitudinal data</li>
-<li><strong>Achieved</strong> zero data loss incidents over 5+ years of
-data management</li>
-<li><strong>Selected</strong> as 10x Genomics beta partner for spatial
-platform development</li>
-<li><strong>Wrote</strong> open-source nf-core institutional execution
-profile for community</li>
-<li><strong>Optimized</strong> costs by replacing $250K+ annual vendor
-contracts with open-source solutions</li>
-<li><strong>Contributed</strong> to $9.5M+ in grants through technical
-leadership and experimental design</li>
+<li class="fragment"><strong>Architected</strong> enterprise AWS
+infrastructure supporting 0.5PB+ genomic and clinical datasets</li>
+<li class="fragment"><strong>Built</strong> $60K+ on-prem compute
+infrastructure expanding non-technical team compute capacity
+dramatically</li>
+<li class="fragment"><strong>Developed</strong> novel spatial
+transcriptomics methodologies (Parallax, extension of Sopa, Nova)</li>
+<li class="fragment"><strong>Created</strong> standardized single-cell
+framework adopted across 12+ projects</li>
+<li class="fragment"><strong>Engineered</strong> ID harmonization
+platform (IDhub) unifying 20 years of longitudinal data</li>
+<li class="fragment"><strong>Achieved</strong> zero data loss incidents
+over 5+ years of data management</li>
+<li class="fragment"><strong>Selected</strong> as 10x Genomics beta
+partner for spatial platform development</li>
+<li class="fragment"><strong>Wrote</strong> open-source nf-core
+institutional execution profile for community</li>
+<li class="fragment"><strong>Optimized</strong> costs by replacing
+$250K+ annual vendor contracts with open-source solutions</li>
+<li class="fragment"><strong>Contributed</strong> to $9.5M+ in grants
+through technical leadership and experimental design</li>
 </ul>
 <p class="heading" id="section-3"></p>
 </section></section>
@@ -1145,24 +1165,27 @@ initiatives)</li>
 <h2>Experience That Defies Categorization</h2>
 <p><strong>The Roles</strong></p>
 <ul>
-<li><strong>Lobbyist</strong> – Stakeholder communication, coalition
-building, legislative process navigation</li>
-<li><strong>UPS Operations</strong> – Logistics systems, high-pressure
-throughput, operational accountability</li>
-<li><strong>Manual &amp; Farm Labor</strong> – Physical discipline,
-grunt work, real-time execution</li>
+<li class="fragment"><strong>Lobbyist</strong> – Stakeholder
+communication, coalition building, legislative process navigation</li>
+<li class="fragment"><strong>UPS Operations</strong> – Logistics
+systems, high-pressure throughput, operational accountability</li>
+<li class="fragment"><strong>Manual &amp; Farm Labor</strong> – Physical
+discipline, grunt work, real-time execution</li>
 </ul>
 <p><strong>Transferable Skills</strong></p>
 <ul>
-<li>Communication that works across every audience</li>
-<li>The ability to do hard, unglamorous things without complaint</li>
-<li>Respect for operational complexity at every level of an
-organization</li>
-<li>Translating technical work for non-technical decision makers</li>
-<li>Comfort with ambiguity, durability under pressure, execution
-focus</li>
-<li>Empathy for people below my station</li>
-<li>The diplomacy to navigate challenging work environments</li>
+<li class="fragment">Communication that works across every audience</li>
+<li class="fragment">The ability to do hard, unglamorous things without
+complaint</li>
+<li class="fragment">Respect for operational complexity at every level
+of an organization</li>
+<li class="fragment">Translating technical work for non-technical
+decision makers</li>
+<li class="fragment">Comfort with ambiguity, durability under pressure,
+execution focus</li>
+<li class="fragment">Empathy for people below my station</li>
+<li class="fragment">The diplomacy to navigate challenging work
+environments</li>
 </ul>
 <p class="heading" id="section-16"></p>
 </section></section>
