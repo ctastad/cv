@@ -12,6 +12,7 @@ output:
     reveal_options:
       controls: true
       height: "100%"
+      width: 1400
       margin: 0.04
       slideNumber: "c/t"
       previewLinks: true
@@ -31,20 +32,19 @@ knitr::opts_chunk$set(eval = F, echo = F, warning = F, message = F)
 5. FAIR Data Standards & Reproducibility
 6. People Management
 7. Technical Expertise
-8. The Random Walk
+8. The Random Walk —
 
 ### Technical Deep Dives
 
-- **prep-sopa** — HPC execution wrapper for the Sopa spatial omics pipeline
-- **Parallax** — Nextflow DSL2 spatial differential expression pipeline
-- **IDhub** — PostgreSQL + REST API ID harmonization platform
-- **CoreSC** — Modular single-cell preprocessing framework
-- **nf-core Minerva profile** — Institutional HPC execution configuration
+- **prep-sopa:** HPC execution wrapper for the Sopa spatial omics pipeline
+- **Parallax:** Nextflow DSL2 spatial differential expression pipeline
+- **IDhub:** PostgreSQL + REST API ID harmonization platform
+- **nf-core Minerva profile:** Institutional HPC execution configuration
 
 ################################################################################
 
 
-# Contact
+## Contact
 
 - **Email:** [ctastad@gmail.com](mailto:ctastad@gmail.com)
 - **LinkedIn:** [linkedin.com/in/ctastad](https://linkedin.com/in/ctastad)
@@ -60,21 +60,22 @@ knitr::opts_chunk$set(eval = F, echo = F, warning = F, message = F)
 
 ## Who I Am
 
-- Bioinformatics engineer and team leader bridging genomic science with production-grade software and infrastructure
-- 10+ years spanning wet lab, computational biology, cloud architecture, and people management
-- Track record of introducing enterprise practices — reproducibility, FAIR standards, CI/CD, containerization — into research environments where none existed
-- Strength in the gestalt: connecting technical decisions to scientific outcomes and organizational strategy
+> - Bioinformatics engineer and team leader bridging genomic science with production-grade software and infrastructure
+> - Currently in a role where I wear many hats
+> - Experience of 10+ years spanning wet lab, computational biology, cloud architecture, and people management
+> - Track record of introducing enterprise practices: reproducibility, FAIR standards, CI/CD, containerization
+> - Strength in the gestalt: connecting technical decisions to scientific outcomes and organizational strategy
 
 ## Fit Check
 
-**What I Bring**
+### What I Bring
 
 > - A diversity of technical and soft skills that can be adapted across a broad range of contexts
 > - Fluency operating as both an individual contributor and a people leader
 > - A track record of doing the boring stuff well
 > - The choice to elevate the people around me as a deliberate practice
 
-**What I'm Looking For**
+### What I'm Looking For
 
 > - Mission-driven science and enterprise
 > - Resources that provide opportunities to push limits of scaling
@@ -84,21 +85,20 @@ knitr::opts_chunk$set(eval = F, echo = F, warning = F, message = F)
 
 ## Guiding Principles
 
-**How I approach the work**
+### How I approach the work
 
-> - Every technical decision is also a resource decision — good engineering, science, or leadership are inseparable from good economics
+> - Every technical decision is also a resource decision. Good engineering, science, or leadership are inseparable from good economics
 > - Enterprise best practices belong in research environments
 > - If we have to get dogmatic about something it should be reproducibility and statistical rigor
-> - Solutions sized to actual requirements — pragmatic over fashionable, right-sized instead of over-engineered
+> - Solutions sized to actual requirements. Pragmatic over fashionable, right-sized instead of over-engineered
 > - Straightforward honesty about tradeoffs, timelines, and limitations; trust is built on clarity, not optimism
-> - The science is always the point — tools exist to serve outcomes, not demonstrate technical sophistication
 
 
 ## Professional Summary
 
-**Bridging Software Engineering & Genomics**
+### Bridging Software Engineering & Genomics
 
-- **Cloud Architecture:** Fully architected AWS enterprise infrastructure (EC2, S3, RDS, VPC, IAM, ECR)
+- **Cloud & On-prem Architecture:** Fully architected AWS enterprise infrastructure (EC2, S3, RDS, VPC, IAM, ECR), self-built and managed nodes
 - **Genomic Platforms:** Single-cell, spatial transcriptomics, WGS/WES pipelines, multi-omics
 - **Software Development:** Python, R, Nextflow, CI/CD, REST APIs, code and data versioning
 - **Environment Management:** Custom built hardware, containerized dev envs, web services to fit needs
@@ -112,31 +112,33 @@ knitr::opts_chunk$set(eval = F, echo = F, warning = F, message = F)
 
 *Wet lab beginnings — foundations of science*
 
-**2016–2017:** Graduate Research Assistant
+**2016–2017:** Graduate Research Assistant - NMDP
 
-*NMDP bioinformatics — HLA typing, immunogenomics → computational transition*
+*HLA typing, immunogenomics → computational transition*
 
-**2019–2021:** Graduate Research Assistant
+**2019–2021:** Graduate Research Assistant - University of MN
 
-*Cancer genomics — single-cell, beginning of community tool dev*
+*Cancer genomics, single-cell, beginning of community tool dev*
 
-**2021–2023:** Bioinformatician II
+**2021–2023:** Bioinformatician II - Mount Sinai, Cho Lab
 
-*Total ownership of compute methods — reshaping team science philosophy*
+*Total ownership of compute methods, reshaping team science philosophy*
 
-**2021–Present:** Lead Data Engineer
+**2021–Present:** Lead Data Engineer - IBDGC
 
-*Intro cloud architecture — complete renovation of 20-year project infra*
+*Intro cloud architecture, complete renovation of 20-year project infra*
 
-**2023–Present:** Senior Manager, Bioinformatics
+**2023–Present:** Senior Manager, Bioinformatics - Mount Sinai, Cho lab
 
-*Established leadership — 5 reports, consultation across all projects, maturation of strategic planning, design, and solutions — exponential scaling*
+*Established leadership, 5 reports, consultation across all projects, maturation of strategic planning, design, and solutions, exponential scaling*
 
 ################################################################################
 
+## Questions - off ramp
+
 ## Innovations
 
-**New capabilities, systems, and practices introduced where none previously existed.**
+### New capabilities introduced where none previously existed
 
 > - **Cloud infrastructure** — first AWS migration for a 20-year consortium project previously running on-prem
 > - **Standardized analysis** — unified, containerized framework replacing half a dozen ad-hoc team workflows
@@ -150,13 +152,13 @@ knitr::opts_chunk$set(eval = F, echo = F, warning = F, message = F)
 
 ## Key Achievements
 
-**Quantifiable Outcomes**
+### Quantifiable Outcomes
 
 > - **Architected** enterprise AWS infrastructure supporting 0.5PB+ genomic and clinical datasets
 > - **Built** $60K+ on-prem compute infrastructure expanding non-technical team compute capacity dramatically
-> - **Developed** novel spatial transcriptomics methodologies (Parallax, extension of Sopa, Nova)
-> - **Created** standardized single-cell framework adopted across 12+ projects
-> - **Engineered** ID harmonization platform (IDhub) unifying 20 years of longitudinal data
+> - **Developed** novel spatial transcriptomics methodologies (Parallax, extension of Sopa, Novae)
+> - **Created** standardized single-cell frameworks adopted across 12+ projects
+> - **Engineered** ID harmonization platform unifying 20 years of longitudinal data
 > - **Achieved** zero data loss incidents over 5+ years of data management
 > - **Selected** as 10x Genomics beta partner for spatial platform development
 > - **Wrote** open-source nf-core institutional execution profile for community
@@ -169,22 +171,23 @@ knitr::opts_chunk$set(eval = F, echo = F, warning = F, message = F)
 
 ## AWS Enterprise Genomic Platform
 
-**Infrastructure Scale**
+### Infrastructure Scale
 
 - 0.5PB+ genomic data (S3/Glacier)
 - EC2 compute clusters with auto-scaling
 - VPC networking with WAF security
 - Multi-domain hosting (ibdgc.org, ibdgenetics.org)
 - **Cost Reduction:** Optimized data life cycle policies, resource allocations, and spending plans for 50% reduction across cloud budget
+- Use of AWS batch across nc-core execution profiles and nftower
 
-**Data Governance**
+### Data Governance
 
 - HIPAA-compliant PHI isolation
 - 3-2-1 backup paradigm
 - Zero data loss incidents (5+ years)
 - Cross-institutional collaboration frameworks
 
-**Key Components**
+### Key Components
 
 - Leverage of low-cost solutions across DNS and web hosting
 - Secure VPC with public/private subnets
@@ -198,14 +201,14 @@ knitr::opts_chunk$set(eval = F, echo = F, warning = F, message = F)
 ## On-Premises Compute Expansion
 **Strategic Infrastructure Investment**
 
-**The Build**
+### The Build
 
 - Sourced, built, and deployed purpose-built **$60K+ on-premises supplementary compute infrastructure**
 - Custom node configuration optimized for memory-intensive genomic workloads
 - Strategic vendor negotiations to maximize hardware value
-- Integrated into cloud-hybrid architecture alongside existing AWS footprint
+- Integrated into cloud-HPC-hybrid architecture alongside existing AWS footprint
 
-**Impact**
+### Impact
 
 - **3x expansion** in team computational capacity
 - Fraction of cost compared to equivalent commercial cloud alternatives
@@ -244,18 +247,17 @@ knitr::opts_chunk$set(eval = F, echo = F, warning = F, message = F)
 # Genomic Processing Development {.center}
 
 ## CoreSC: Standardized Single-Cell Framework
-**Bioinformatics Innovation Lead**
 
-**The Challenge**
+### Challenge
 
 - Ad-hoc analysis methods across 12+ projects
 - Inconsistent statistical methodologies
 - Fragmented reproducibility across international consortia
 
-**The Solution**
+### Solution
 
 - Unified preprocessing paradigm (R/Seurat)
-- Containerized deployment (Docker/Kubernetes)
+- Containerized deployment (Docker/Singularity)
 - renv lockfiles for reproducible environments
 - Adopted across all internal projects
 - **Result:** Eliminated analysis inconsistencies, accelerated discovery for non-technical biologists
@@ -266,7 +268,7 @@ knitr::opts_chunk$set(eval = F, echo = F, warning = F, message = F)
 
 ![](./cv_visual_figs/coresc_subroutine_workflow.png)
 
-**Technical Implementation**
+### Technical Implementation
 
 - R/Seurat for single-cell analysis with SCTransform v2
 - renv for reproducible package environments
@@ -288,18 +290,18 @@ knitr::opts_chunk$set(eval = F, echo = F, warning = F, message = F)
 ## Spatial Transcriptomics Pipelines
 **Novel Methodology Development | 10x Genomics Beta Partner**
 
-**Innovation**
+### Innovation
 
 - Extended Sopa framework for comprehensive Xenium processing and integration of domain-based processing and scalable execution
 - Context-aware spatial differential expression analysis through self-built Parallax pipeline
 - Annotation noise correction algorithms for Visium/Xenium
 - Multi-sample integration workflows via Novae
 
-**Industry Partnership**
+### Industry Partnership
 
 - **10x Genomics Beta Partner** – Cloud hosting feature development for Xenium Explorer
 - Direct product roadmap influence and feedback integration on Explorer cloud integration
-- Institution-first Xenium deployment (advised on custom power, security, networking implementation)
+- Institution-first full Xenium deployment (advised on custom power, complete institutional security review, networking implementation)
 - Spatial transcriptomics best practices development
 
 
@@ -488,7 +490,7 @@ process {
 
 ## IDhub: ID Harmonization Platform
 
-**System Architecture**
+### System Architecture
 
 - PostgreSQL database with REST API
 - Global Subject ID resolution service
@@ -497,12 +499,12 @@ process {
 - Included MCP server interface for planned expansion to sample-data LLM integration
 - User friendly web GUI for interactive queries
 
-**Impact Metrics**
+### Impact
 
 - Unified 20 years of consortium recruitment data
 - Central source of truth for longitudinal studies
 - Automated metadata management (LabKey LIMS API)
-- **FAIR-compliant** data distribution via Open Science Framework
+- **FAIR-compliant**
 
 ################################################################################
 
@@ -510,51 +512,34 @@ process {
 
 ![](./cv_visual_figs/idhub_integration_workflow.png)
 
-**Process Flow**
-
-1. Multi-source data ingestion (LabKey, REDCap, legacy systems)
-2. Staged curation with validation gates
-3. REST API serving harmonized IDs
-4. Open Science Framework integration for public datasets
-5. Cross-referenced global subject resolution
-
 ################################################################################
 
 ## Bystro: Genomic Annotation Platform
 **High-Performance Annotation on the Web**
 
-**Performance Transformation**
+### Performance Transformation
 
 - Chosen as beta partner by Bystro AI for self-hosted deployment
 - **Challenge:** WES/WGS annotation required days of processing with limited accessibility
-- **Solution:** Deployed ultra-fast, web-based annotation service in AWS
+- **Solution:** Deployed ultra-fast, web-based, cloud-hosted annotation service in AWS
 - **Impact:** Reduced processing time from **days → hours**
-- RESTful API architecture enabling widely accessible genomic insights
-- Redis caching layer for frequent queries
-
-**Technical Stack**
-
-- AWS EC2 compute tier for variant annotation engines
-- Redis caching for frequent gene/variant queries
-- PostgreSQL for genomic coordinates and annotations
-- React frontend for interactive visualization
-- REST API for programmatic access
+- Significant accessiblity to non-technical users and in publication hosting
 
 ################################################################################
 
 ## REDCap-Booster & Data Automation
 **Metadata Management Systems**
 
-**Automation Stack**
+### Automation Stack
 
 - Python/R automation utilities for ETL processes
 - LabKey sample management API integration
 - REDCap API for clinical data capture
 - Sanitization and curation frameworks for clinical metadata harmonization
 
-**Operational Impact**
+### Operational Impact
 
-- Reduced manual curation overhead by 80%
+- Massive reduced manual curation overhead
 - Systematic data stewardship protocols
 - Cloud-hosted automated subject identification
 - 20-year longitudinal study support with maximized data lineage
@@ -578,53 +563,59 @@ process {
 # FAIR Data Standards & Reproducibility {.center}
 
 ## FAIR at the Consortium Level
-**Clinical, Recruitment & Archival Data — IBDGC**
+### Findable & Accessible — IBDGC
 
-> Structured, auditable, and interoperable data practices across 650+ global collaborators and 20 years of longitudinal study data.
+> 650+ global collaborators, 20 years of longitudinal data
 
 **Findable & Accessible**
 
-- **FAIR & NIH-compliant** data distribution via Open Science Framework. Structured release workflows replacing ad hoc data sharing
-- **IDhub** PostgreSQL + REST API platform providing global subject ID resolution; full audit logging and data lineage tracking as foundational integrity infrastructure
-- All core systems expose APIs or structured interfaces. Enabling automation, programmatic integration, and reduced dependency on manual intervention across a predominantly non-technical user base
+- FAIR and NIH-compliant data distribution via Open Science Framework, replacing ad hoc sharing
+- IDhub REST API with full audit logging as foundational data integrity infrastructure
+- All core systems expose structured interfaces, reducing manual intervention for non-technical users
+
+################################################################################
+
+## FAIR at the Consortium Level
+### Interoperable, Reusable & Right-Sized — IBDGC
 
 **Interoperable & Reusable**
 
-- Harmonized IDs unifying 20 years of legacy systems across REDCap, LabKey, and institutional databases
-- **3-2-1 backup paradigm** with zero data loss incidents over 5+ years
-- Git-based version control enforced across all pipeline code and configuration; data versioning via DVC with S3-backed registries
+- Harmonized subject IDs unifying 20 years of legacy data across REDCap, LabKey, and institutional databases
+- 3-2-1 backup paradigm with zero data loss incidents over 5+ years
+- Git version control across all pipeline code; data versioning via DVC with S3-backed registries
 
 **Right-Sized by Design**
 
-- Removed access barriers for non-technical users by replacing complex tooling with interface-driven, API-accessible workflows paired with user-friendly GUIs
-- **Saved an R01 equivalent in hosting expenditures** by right-sizing infrastructure to actual community requirements
+- Replaced complex tooling with interface-driven, API-accessible workflows for non-technical users
+- Saved an R01 equivalent in hosting costs by right-sizing infrastructure to actual community requirements
 
 ################################################################################
 
 ## FAIR for Reproducibility
-**Analytical Frameworks, Tools & Practices — Cho Lab**
+### Policies & Frameworks — Cho Lab
 
-> Enterprise reproducibility standards introduced across a research environment where unversioned, local-only workflows previously dominated.
+> Enterprise reproducibility standards introduced where unversioned, local-only workflows previously dominated
 
-**Policies & Frameworks Introduced**
-
-- **CoreSC** unified, containerized single-cell preprocessing framework with renv lockfiles; eliminated analysis inconsistency across 12+ projects
-- **Data Version Control (DVC)** project-specific data registries with storage class lifecycle management
+- **CoreSC** unified containerized single-cell preprocessing with renv lockfiles, eliminating analysis inconsistency across 12+ projects
+- **DVC** project-specific data registries with S3 storage lifecycle management
 - **CI/CD via GitHub Actions** automated deployment and testing for code and data pipelines
-- **nf-core institutional profile** standardized, community-endorsed HPC execution configuration
+- **nf-core institutional profile** standardized HPC execution configuration
 
-**Tools & Best Practices**
+################################################################################
 
-- **Docker/Kubernetes containerization** reproducible environments for non-technical users on HPC; portable deployment replacing local-only unversioned stacks
-- **renv** R environment lockfiles introduced across teams running unversioned local-only dependency stacks
-- **Confluence/Jira** institutional knowledge management replacing undocumented institutional memory; SOPs, protocols, and decisions made searchable and persistent
-- **GitHub** enforced wide-spread adoption of code and data version control across team and consortium
+## FAIR for Reproducibility
+### Tools & Practices — Cho Lab
+
+- **Containerized** reproducible environments for non-technical HPC users, replacing local-only unversioned stacks
+- **renv** R environment lockfiles introduced across teams with no prior dependency management
+- **GitHub** enforced version control adoption across team and consortium
+- **Confluence/Jira** institutional knowledge management replacing undocumented institutional memory; SOPs and decisions made searchable and persistent
 
 ################################################################################
 
 ## FAIR Principles Alignment
 
-**Mapping practice to principle across both contexts**
+### Mapping practices across both contexts
 
 | Principle | Implementation |
 |:---|:---|
@@ -639,7 +630,7 @@ process {
 
 ## Team Leadership
 
-**Management Scope**
+### Management Innovation
 
 - Lead **5-person bioinformatics team** across 12+ concurrent multi-year projects
 - Lead **4-person data team** for Data Coordinating Center of NIDDK IBD Genetics Consortium across infrastructure and data archival responsibilities
@@ -651,7 +642,7 @@ process {
 
 
 ## Knowledge Management & Institutional Memory
-**Organizational Systems Development**
+### Organizational Systems Development
 
 **Implementation**
 
@@ -671,7 +662,6 @@ process {
 ################################################################################
 
 ## AI-Assisted Development Infrastructure
-**Enterprise Innovation | Tech Lead**
 
 **Implementation**
 
@@ -693,14 +683,14 @@ process {
 
 ## Experience That is Difficult to Categorize
 
-**The Roles**
+### The Roles
 
 > - **Lobbyist** – Stakeholder priorities, coalition building, bureaucratic process navigation
 > - **UPS Operations** – Logistics systems, high-pressure throughput, operational accountability
 > - **Manual & Farm Labor** – Physical discipline, grunt work, real-time execution
 > - **Health Care** –  emergency and perioperative patient care, precision under pressure, human stakes behind clinical data
 
-**Transferable Skills**
+### Transferable Skills
 
 > - Communication that works across every audience
 > - The ability to do hard, unglamorous things without complaint
@@ -715,16 +705,16 @@ process {
 # Deep Dive - prep-sopa {.center}
 
 ## prep-sopa: Sopa Execution Wrapper
-**Spatial Omics Pipeline Orchestration on HPC**
+### Spatial Pipeline Orchestration on HPC
 
-**The Gap**
+**Challenge**
 
-- Sopa is a powerful, technology-invariant spatial omics framework — but raw execution on HPC requires
+- Sopa is a powerful, technology-invariant spatial omics framework, but raw execution on HPC requires
   non-trivial environment management, LSF configuration, and per-sample parameterization
 - Running high-volume independent Xenium samples without a wrapper creates brittle, manual, non-reproducible submission patterns
 - Non-technical users in the lab had no path to independent execution
 
-**The Solution**
+**Solution**
 
 - `prep-sopa` — a purpose-built Python orchestration tool that **generates** fully parameterized LSF
   submission scripts rather than running the pipeline directly
@@ -739,7 +729,7 @@ process {
 
 ## prep-sopa: Execution Architecture
 
-**Design Pattern: Code Generation over Direct Execution**
+### Design Pattern: Code Generation over Direct Execution
 
 ```bash
 # Single CLI call per sample — all complexity abstracted
@@ -757,7 +747,7 @@ python main.py \
 2. Resolves environment paths across `prep-sopa` and `sopa2` conda envs + Baysor executable
 3. Reads and validates YAML config against expected schema
 4. **Generates** per-sample LSF submission scripts with correct memory, queue, and path bindings
-5. Writes scripts to `lsf_scripts/` — ready for `bsub` submission with no further editing
+5. Writes scripts to `lsf_scripts/`, ready for `bsub` submission with no further editing
 
 ```bash
 # Generated output — submit without modification
@@ -769,7 +759,7 @@ bsub < submit_SAMPLE_NAME.lsf
 
 ## prep-sopa: Output Contract & Reproducibility
 
-**Every run produces a fully auditable, self-contained output structure**
+### *Every run produces a fully auditable, self-contained output structure
 
 ```
 xenium-registry/sopa/project_dir/
@@ -785,36 +775,32 @@ xenium-registry/sopa/project_dir/
 
 **Why this matters**
 
-- Timestamped dirs make every run independently addressable — no silent overwrites
+- Timestamped dirs make every run independently addressable, no silent overwrites
 - Config backups mean any result can be exactly reproduced from the archived record
 - Parameter logs feed directly into downstream provenance tracking
 - Zarr + Explorer outputs satisfy both programmatic (Python/R) and interactive (Xenium Explorer) access patterns
-- Structure is consistent across all samples — enabling batch result aggregation without path negotiation
+- Structure is consistent across all samples, enabling batch result aggregation without path negotiation
 
 ################################################################################
 
 # Deep Dive - Parallax {.center}
 
 ## Parallax: Niche-Aware Spatial DE Pipeline
-**The Gap, The Decision, The Approach**
 
-**The Gap**
+> A Nextflow DSL2 pipeline that takes SpatialData Zarr stores from Sopa and produces niche-aware spatial differential expression results via coupled variational inference models
 
-- Sopa produces clean, segmented spatial data — but stops short of differential expression analysis
+**Challenge**
+
+- Sopa produces clean, segmented spatial data, but stops short of differential expression analysis
 - Standard DE methods ignore spatial context: which cells are neighbors, what niche they occupy
 - No existing tool combined noise correction, cell type prediction, and niche-aware DE in a single reproducible pipeline
 
 **The Design Decision**
 
 - Dual-method architecture: **ResolVI** for noise correction and cell type prediction feeding directly into **scVIVA** for niche-aware DE
-- Implemented as Nextflow DSL2 — portable across HPC and cloud, resumable, containerized
+- Implemented as Nextflow DSL2, portable across HPC and cloud, resumable, containerized
 - GPU-accelerated model training via distributed array; CPU fallback available via profile flag
 
-**One Line**
-
-> A Nextflow DSL2 pipeline that takes SpatialData Zarr stores from Sopa and produces niche-aware spatial differential expression results via coupled variational inference models
-
-> *Downstream of: Liberti et al. Sopa, Nature Communications (2024). https://doi.org/10.1038/s41467-024-48981-z*
 
 ################################################################################
 
@@ -822,17 +808,15 @@ xenium-registry/sopa/project_dir/
 
 ![](./cv_visual_figs/parallax_pipeline.png)
 
-**ResolVI predictions are an intermediate output — not an internal state — coupling the two workflows by data contract rather than monolithic execution**
-
 - Modularity means any stage can be rerun independently via Nextflow `-resume` without reprocessing upstream steps
-- Singularity containers enforce identical execution on HPC, cloud, or local — no environment drift
-- GPU mode resolved at runtime from execution profile — no hardcoded resource assumptions
+- Singularity containers enforce identical execution on HPC, cloud, or local, no environment drift
+- GPU mode resolved at runtime from execution profile, no hardcoded resource assumptions
 
 
 ################################################################################
 
 ## Parallax: Module Architecture
-**Subworkflows, modules, and their responsibilities**
+**Subroutines and modules
 
 **ResolVI Subworkflow**
 
@@ -855,7 +839,7 @@ xenium-registry/sopa/project_dir/
 
 | Component | Role |
 |:---|:---|
-| `bin/check_gpu_availability.py` | Runtime GPU interrogation — validates CUDA availability before training processes launch |
+| `bin/check_gpu_availability.py` | Runtime GPU interrogation, validates CUDA availability before training processes launch |
 | `bin/validate_gpu_params.py` | Ensures GPU parameter consistency across profile and process label definitions |
 | `lib/ChannelUtils.groovy` | Shared Groovy utilities for channel manipulation across subworkflows |
 | `lib/WorkflowParallax.groovy` | Pipeline-level workflow helpers and summary logging |
@@ -864,9 +848,9 @@ xenium-registry/sopa/project_dir/
 ################################################################################
 
 ## Parallax: Channel Topology & Runtime Logic
-**How data flows and how the pipeline makes decisions**
+**How data flows**
 
-**Input channel construction — samplesheet-driven with inline validation**
+**Input channel construction**
 
 ```groovy
 ch_input = Channel
@@ -886,7 +870,7 @@ ch_input = Channel
     }
 ```
 
-**Inter-subworkflow join — the explicit data contract between ResolVI and scVIVA**
+**Inter-subworkflow join**
 
 ```groovy
 ch_resolvi_analysis = RESOLVI_TRAIN.out.model
@@ -904,22 +888,21 @@ SCVIVA_TRAIN(
 )
 ```
 
-**GPU mode resolved from profile at workflow start — not per-process**
+**GPU mode resolved from profile at workflow start, not per-process**
 
 ```groovy
-// Single resolution point — propagated to all training processes as a param
+// Single resolution point, propagated to all training processes as a param
 def gpu_mode = workflow.profile.contains('cpu') ? false : true
 ```
 
-- `join(by: 0)` on the meta map ensures per-sample integrity across all channel operations — no cross-sample data contamination possible
 - Fail-fast validation at channel construction surfaces input errors before any compute is consumed
-- `ch_versions` mixed from every module output feeds directly into MultiQC — full software provenance captured automatically
+- `ch_versions` mixed from every module output feeds directly into MultiQC, full software provenance captured automatically
 
 ################################################################################
 
 ## Parallax: Output Contract
 
-**Every run produces a fully auditable, provenance-complete output structure**
+**Every run produces a fully auditable, provenance-complete output**
 
 ```
 OUTDIR/
@@ -940,40 +923,35 @@ OUTDIR/
 └── work/                            # Nextflow work dirs
 ```
 
-- Timestamped `pipeline_info/` files make every run independently addressable — no silent overwrites across repeated executions
-- `software_versions.yml` mixed from every module's `versions` output channel — provenance is structural, not an afterthought
+- Timestamped `pipeline_info/` files make every run independently addressable. No silent overwrites across repeated executions
+- `software_versions.yml` mixed from every module's `versions` output channel. Provenance is structural, not an afterthought
 - Auto-generated DAG (`pipeline_dag`) provides a visual record of the exact execution graph for any given run
-- `cell_type_predictions.csv` is the explicit inter-subworkflow contract — independently archivable and usable outside Parallax
-- Nextflow `-resume` restarts from the last successful process using the `work/` cache — no recomputation of completed stages
+- `cell_type_predictions.csv` is the explicit inter-subworkflow contract, independently archivable and usable outside Parallax
+- Nextflow `-resume` restarts from the last successful process using the `work/` cache, no recomputation of completed stages
 
 
 # Deep Dive - nf-core Shared Config {.center}
 
 ## nf-core Minerva Profile: Institutional HPC Configuration
-**The Gap, The Decision, The Approach**
 
-**The Gap**
+> A community-contributed, dynamically-routing LSF execution profile that makes any nf-core pipeline runnable on Minerva with a single `-profile` flag
 
-- nf-core pipelines are designed for portability — but raw execution on Minerva (Icahn School of Medicine at Mount Sinai) requires LSF-specific queue routing, Singularity cache management, GPFS path bindings, and allocation accounting that no generic profile provides
-- Without an institutional profile, every user configures these independently — producing inconsistent, non-reproducible execution environments across the lab and collaborators
-- GPU workloads, long-running jobs, and express queues each require distinct LSF directives that vary by job characteristics — not something a static config can handle
+**Challenge**
+
+- nf-core pipelines are designed for portability, but raw execution on Minerva (Icahn School of Medicine at Mount Sinai) requires LSF-specific queue routing, Singularity cache management, GPFS path bindings, and allocation accounting that no generic profile provides
+- Without an institutional profile, every user configures these independently, producing inconsistent, non-reproducible execution environments across the lab and collaborators
+- GPU workloads, long-running jobs, and express queues each require distinct LSF directives that vary by job characteristics, not something a static config can handle
 
 **The Design Decision**
 
-- Author and contribute an **official nf-core institutional profile** — merged into the nf-core/configs community repository and available to any Minerva user running any nf-core pipeline
-- Dynamic queue and resource routing via Groovy closures rather than static assignments — the config reasons about job requirements at submission time
+- Author and contribute an **official nf-core institutional profile**  merged into the nf-core/configs community repository and available to any Minerva user running any nf-core pipeline
+- Dynamic queue and resource routing via Groovy closures rather than static assignments, the config reasons about job requirements at submission time
 - CI/CD via GitHub Actions ensures the profile is tested and validated on every update
-
-**One Line**
-
-> A community-contributed, dynamically-routing LSF execution profile that makes any nf-core pipeline runnable on Minerva with a single `-profile` flag
 
 ################################################################################
 
 ## nf-core Minerva Profile: Execution Architecture
 **Dynamic routing — the config reasons about job requirements at submission time**
-
-**Queue selection via Groovy closure — not a static assignment**
 
 ```groovy
 // Queue resolved per-process based on actual resource requirements
@@ -1010,9 +988,9 @@ clusterOptions = {
 
 **Key design properties**
 
-- Allocation injected via `MINERVA_ALLOCATION` environment variable — no project codes committed to version-controlled config
-- `perTaskReserve = true` / `perJobMemLimit = false` matches Minerva LSF memory accounting model precisely — prevents systematic job rejection
-- Singularity cache paths resolved per-user via `System.getenv('USER')` — no shared cache conflicts across users
+- Allocation injected via `MINERVA_ALLOCATION` environment variable, no project codes committed to version-controlled config
+- `perTaskReserve = true` / `perJobMemLimit = false` matches Minerva LSF memory accounting model precisely, prevents systematic job rejection
+- Singularity cache paths resolved per-user via `System.getenv('USER')`, no shared cache conflicts across users
 - `submitRateLimit = '2 sec'` prevents LSF scheduler flooding on large pipeline submissions
 
 ################################################################################
@@ -1036,24 +1014,163 @@ withLabel:error_ignore { errorStrategy = 'ignore'; maxRetries = 0 }
 withLabel:error_retry  { errorStrategy = 'retry';  maxRetries = 2 }
 ```
 
-**Resource ceiling enforcement — prevents runaway jobs cluster-wide**
+**Resource ceiling enforcement, prevents runaway jobs cluster-wide**
 
 ```groovy
 resourceLimits = [
     cpus:   64,
     memory: 1.5.TB,
-    time:   336.h        // 14-day hard ceiling — maps to LSF long queue max
+    time:   336.h        // 14-day hard ceiling, maps to LSF long queue max
 ]
 ```
 
 **Community impact**
 
-- Merged into the official **nf-core/configs** repository — available to all Minerva users running any nf-core pipeline via `-profile mssm`
-- CI/CD via GitHub Actions validates the profile on every commit — institutional config treated as production software
+- Merged into the official **nf-core/configs** repository, available to all Minerva users running any nf-core pipeline via `-profile mssm`
+- CI/CD via GitHub Actions validates the profile on every commit, institutional config treated as production software
 - Eliminates per-user LSF configuration overhead across the lab and all collaborators
-- GPU container passthrough (`--nv` Singularity flag) applied automatically via process label — users do not need to know the flag exists
+- GPU container passthrough (`--nv` Singularity flag) applied automatically via process label. Users do not need to know the flag exists
 - Directly enables Parallax, nf-core/rnaseq, nf-core/sarek, and any future nf-core pipeline to run on Minerva without additional configuration
 
+
+# Deep Dive - IDhub {.center}
+
+## IDhub: Federated Subject Identity Platform
+
+> A containerized microservices platform that assigns globally unique subject identifiers across
+> federated clinical sites, resolves cross-center identity conflicts, and provides both programmatic
+> API and no-code curator interfaces over a single PostgreSQL source of truth
+
+**Challenge**
+
+- A multi-site IBD consortium (IBDGC) with dozens of contributing centers produces subject data under heterogeneous local ID schemes
+- No shared identity layer meant downstream analyses could not reliably deduplicate subjects across centers
+- Non-technical curators needed a path to query, review, and resolve conflicts without writing SQL
+
+**The Design Decision**
+
+- Build a **purpose-designed identity resolution platform** rather than adopting a generic MDM tool 
+- Microservices architecture: five discrete services each independently deployable, testable, and replaceable: `gsid-service`, `fragment-validator`, `table-loader`, `redcap-pipeline`, `labkey-sync`
+- **NocoDB** as a no-code interface layer over PostgreSQL 
+
+################################################################################
+
+## IDhub: System Architecture
+
+![](./cv_visual_figs/idhub_integration_workflow.png)
+
+**Two ingestion paths, automated and manual, converge on a single identity resolution service**
+
+- `redcap-pipeline` runs on a schedule via GitHub Actions, clinical data ingested automatically without curator intervention
+- `fragment-validator` handles manual curator uploads, field mapping, schema validation, GSID resolution, and conflict detection before anything touches the database
+- Both paths route through `gsid-service` for identity resolution, single resolution point, no divergent logic between automated and manual ingestion
+- `table-loader` is the commit gate, dry-run by default, explicit `--approve` required to write to the database.
+- nginx routes `idhub.ibdgc.org` to NocoDB and `api.idhub.ibdgc.org` to the GSID REST API, with QA and prod environments served from the same compose topology via environment-switched configs
+
+################################################################################
+
+## IDhub: Identity Resolution & Conflict Logic
+
+**GSID format -- custom Base32, time-sortable, collision-resistant**
+
+```python
+# 21-character format: GSID-TTTTTRRRRRRRRRRR
+# T = 5-char Base32 timestamp (ms since epoch mod 32^5) -- roughly sortable
+# R = 11-char Base32 cryptographic random -- ~55 bits of entropy
+# Custom alphabet excludes I, L, O, U -- eliminates transcription ambiguity
+
+BASE32_ALPHABET = "0123456789ABCDEFGHJKMNPQRSTVWXYZ"
+
+def generate_gsid() -> str:
+    timestamp_ms = int(time.time() * 1000)
+    timestamp_part = encode_base32(timestamp_ms % (32**5), length=5)
+    random_part = encode_base32(secrets.randbelow(32**11), length=11)
+    return f"GSID-{timestamp_part}{random_part}"
+```
+
+**Center-agnostic matching**
+
+```python
+# Match on local_subject_id ALONE -- center_id is NOT part of the match key
+# Rationale: the same subject may be registered under different center codes
+# across sites; requiring center match would create duplicate GSIDs for the same person
+
+cur.execute("""
+    SELECT s.global_subject_id, s.created_at, s.center_id
+    FROM local_subject_ids l
+    JOIN subjects s ON l.global_subject_id = s.global_subject_id
+    WHERE lower(l.local_subject_id) = lower(%s)
+""", (identifier["local_subject_id"],))
+
+```
+
+**Three-outcome resolution with full audit trail**
+
+```python
+if len(matched_gsids) == 0:
+    action = "create_new"         # No match -- mint a new GSID
+
+elif len(matched_gsids) == 1:
+    action = "link_existing"      # Single match -- link identifiers to existing GSID
+                                  # Center mismatch flagged but does not block resolution
+
+else:
+    action = "conflict_resolved"  # Multi-GSID conflict -- same identifier linked to
+                                  # different GSIDs (data error) -- use oldest, flag all
+                                  # confidence score drops to 0.5, requires_review = TRUE
+
+```
+
+**Every resolution logged to `identity_resolutions`** with confidence score, match strategy, candidate IDs, and matched GSIDs, full adjudication history queryable
+
+################################################################################
+
+## IDhub: Service Architecture & Output
+
+**Five services -- discrete responsibilities, shared network, single database**
+
+| Service | Trigger | Role |
+|:---|:---|:---|
+| `gsid-service` | REST API call | FastAPI service; GSID generation, validation, identity resolution; the only writer to `subjects` and `local_subject_ids` |
+| `fragment-validator` | Manual curator invocation | Field mapping, schema validation, GSID resolution, conflict detection; stages to S3; never writes to database directly |
+| `table-loader` | Manual with `--approve` flag | Reads validated fragments from S3; dry-run by default; commits to database only on explicit approval |
+| `redcap-pipeline` | GitHub Actions schedule | Automated clinical data ingestion; calls `gsid-service` API; writes directly to database via connection pool |
+| `labkey-sync` | Scheduled | Syncs specimen metadata from LabKey; updates existing records without creating new subjects |
+
+**Two-phase commit pattern -- fragment-validator stages, table-loader commits**
+
+**Conflict adjudication surfaces to curators via NocoDB -- not a code change**
+
+- `conflict_resolutions` table written by `fragment-validator`, readable and resolvable via NocoDB UI
+- `data_change_audit` records every field modification with `old`/`new` values, `batch_id`, and S3 source path -- any change is fully traceable to its source file
+
+
+## IDhub: Automated Operations via GitHub Actions
+
+Seven workflows cover the full operational lifecycle, from code push to production data integrity.
+
+| Workflow | Trigger | Target | Purpose |
+|:---|:---|:---|:---|
+| `deploy.yml` | Push to `qa`/`prod` branch, or manual | qa or prod | Full service deployment with health checks and rollback backup |
+| `redcap-sync.yml` | Daily schedule (3 AM ET prod, 2 AM ET qa), or manual | qa and prod | Automated REDCap clinical data ingestion via SSH tunnel to database |
+| `fragment-ingestion.yml` | Manual, with batch ID input | qa or prod | Controlled fragment load with dry-run gate before any database write |
+| `backup-prod-db.yml` | Daily schedule (12 AM ET), or manual | prod | pg_dump piped to gzip, uploaded to S3 |
+| `clone-prod-to-qa.yml` | Manual, requires typed confirmation | qa | Pulls latest prod S3 backup and restores to QA for environment parity |
+| `purge-records.yml` | Daily schedule (1 AM ET) + manual with confirmation | qa only | Drops and reinitializes QA database volume for clean-state testing |
+| `test-and-coverage.yml` | Push or PR to any protected branch | all services | Parallel matrix test run across all four services, coverage uploaded to Codecov |
+
+### IDhub: Deployment and Environment Management
+
+The `deploy.yml` workflow handles both environments from a single file, with environment-specific secrets resolved dynamically.
+
+```yaml
+# Environment and secrets resolved at runtime from branch name or manual input
+environment: ${{ github.event.inputs.environment || 
+  (github.ref == 'refs/heads/prod' && 'prod' || 'qa') }}
+
+SSH_PRIVATE_KEY: ${{ secrets[format('SSH_PRIVATE_KEY_{0}', 
+  steps.env.outputs.environment == 'prod' && 'PROD' || 'QA')] }}
+```
 
 <!-- style -->
 
